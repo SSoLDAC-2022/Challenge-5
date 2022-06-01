@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concept xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="dictionary" xsi:noNamespaceSchemaLocation="dictionary1.xsd">
+	<concept type="context">
+		<term context="en-GB">en-GB</term>
+	</concept>
+	<concept type="context">
+		<term context="en-GB">buildingSMART Data Dictionary</term>
+		<term context="IFD">IFD</term>
+	</concept>
+	<concept type="context">
+		<term context="en-GB">buildingSMART Data Model</term>
+		<term context="IFC">IFC</term>
+	</concept>
+	<concept type="context">
+		<term context="en-GB">RASE methodology</term>
+		<term context="RASE">RASE</term>
+	</concept>
+	<concept type="context">
+		<term context="en-GB">Representation of measurement systems and methods</term>
+		<term context="measure">measure</term>
+	</concept>
+	<concept type="context">
+		<term context="en-GB">UK Building Regulation terminology</term>
+		<term context="BuildingRegs">BuildingRegs</term>
+	</concept>
+	<concept type="context">
+		<term context="en-GB">Terms endorsed by ISO and buildingSMART</term>
+		<term context="ISO">ISO</term>
+	</concept>
+	<concept type="context">
+		<term context="en-GB">Procedure Calls</term>
+		<term context="PROCEDURE">PROCEDURE</term>
+	</concept>
+	<concept type="context">
+		<term context="en-GB">A Call to an external application</term>
+		<term context="EXTERNAL">EXTERNAL</term>
+	</concept>
+	<concept type="entity">
+		<term context="en-GB">door</term>
+		<term context="IFC">IfcDoor</term>
+		<concept type="property">
+			<term context="en-GB">door height</term>
+			<term context="IFC" group="PSET_Building_Use">OverallHeight</term>
+		</concept>
+		<concept type="property">
+			<term context="en-GB">door width</term>
+			<term context="IFC" group="PSET_Building_Use">OverallWidth</term>
+		</concept>
+		<concept type="property">
+			<term context="en-GB">effective clear width</term>
+			<term context="IFC" group="PSET_Building_Use">ClearWidth</term>
+		</concept>
+		<concept type="property">
+			<term context="en-GB">lower vision panel base height</term>
+		</concept>
+		<concept type="property">
+			<term context="en-GB">lower vision panel top height</term>
+		</concept>
+		<concept type="property">
+			<term context="en-GB">upper vision panel base height</term>
+		</concept>
+		<concept type="property">
+			<term context="en-GB">upper vision panel top height</term>
+		</concept>
+	</concept>
+	<concept type="entity">
+		<term context="en-GB">window</term>
+		<term context="IFC">IfcWindow</term>
+		<concept type="property">
+			<term context="en-GB">window height</term>
+			<term context="IFC" group="PSET_Building_Use">Height</term>
+		</concept>
+		<concept type="property">
+			<term context="en-GB">window width</term>
+			<term context="IFC" group="PSET_Building_Use">OverallWidth</term>
+		</concept>
+	</concept>
+	<concept type="operator">
+		<term context="en-GB">AND</term>
+		<term context="RASE">AND</term>
+		<term context="IFC">.LOGICALAND.</term>
+	</concept>
+	<concept type="operator">
+		<term context="en-GB">OR</term>
+		<term context="RASE">OR</term>
+		<term context="IFC">.LOGICALOR.</term>
+	</concept>
+	<concept type="operator">
+		<term context="en-GB">NOTAND</term>
+		<term context="RASE">NOTAND</term>
+		<term context="IFC">.LOGICALNOTAND.</term>
+	</concept>
+	<concept type="operator">
+		<term context="en-GB">NOTOR</term>
+		<term context="RASE">NOTOR</term>
+		<term context="IFC">.LOGICALNOTOR.</term>
+	</concept>
+	<concept type="comparison">
+		<term context="en-GB">equalto</term>
+		<term context="RASE">=</term>
+	</concept>
+	<concept type="comparison">
+		<term context="en-GB">gt</term>
+		<term context="RASE">&gt;</term>
+	</concept>
+	<concept type="comparison">
+		<term context="en-GB">lt</term>
+		<term context="RASE">&lt;</term>
+	</concept>
+	<concept type="comparison">
+		<term context="en-GB">le</term>
+		<term context="RASE">&lt;=</term>
+	</concept>
+	<concept type="comparison">
+		<term context="en-GB">ge</term>
+		<term context="RASE">&gt;=</term>
+	</concept>
+	<concept type="comparison">
+		<term context="en-GB">ne</term>
+		<term context="RASE">&gt;&lt;</term>
+	</concept>
+	<concept type="comparison">
+		<term context="en-GB">includes</term>
+		<term context="RASE">includes</term>
+	</concept>
+	<concept type="comparison">
+		<term context="en-GB">excludes</term>
+		<term context="RASE">excludes</term>
+	</concept>
+	<concept type="measure">
+		<term context="en-GB">metres</term>
+		<term context="unit">m</term>
+	</concept>
+	<concept type="measure">
+		<term context="en-GB" factor="0.001">millimetres</term>
+		<term context="unit" factor="0.001">mm</term>
+	</concept>
+	<concept type="measure">
+		<term context="en-GB">square metres</term>
+		<term context="en-GB">sq.m</term>
+		<term context="unit">m2</term>
+	</concept>
+	<concept type="measure">
+		<term context="en-GB">square millimetres</term>
+		<term context="en-GB">sq.mm</term>
+		<term context="unit">mm2</term>
+	</concept>
+	<concept type="measure">
+		<term context="en-GB">U-value</term>
+		<term context="unit">W/m2.K</term>
+	</concept>
+</concept>

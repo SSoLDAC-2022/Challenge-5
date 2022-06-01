@@ -1,0 +1,62 @@
+
+body {
+  text-align:left;
+  font-family:"verdana";
+  font-size:15px;
+}
+
+[section.title]:before {
+  content:attr(title);
+  font-weight: bold;
+  color: #ba3010;
+  table;
+}
+
+[class="italic"] {
+  font-style: italic;
+  color: grey;
+}
+
+[class="bold"] {
+  font-weight: bold;
+}
+
+[class="normative"] {
+  font-weight: bold;
+   color: red;
+}
+
+[class="non-normative-note"] {
+  color: grey;
+}
+
+mark {
+  background-color:#dfdfdf;
+}
+
+section {
+  background-color:#dfdfdf;
+  border-top: 1px;
+  border-top: solid #ba3010;
+  border-bottom: 1px;
+  border-bottom: solid #ba3010;
+  border-left: 1px;
+  border-left: solid #ba3010;
+  border-right: 1px;
+  border-right: solid #ba3010;
+  padding:0px;
+  	margin-top:1px;
+  	margin-bottom:1px;
+  	margin-right:10px;
+  	margin-left:10px;
+  text-align:left;
+  text-indent:24px;
+  direction:ltr;
+}
+
+
+
+    a:link {color:#888888;}    /* normal link */
+    a:visited {color:#888888;} /* visited link */
+    a:hover {color:#fe0000;}   /* mouse over link */
+    a:active {color:#fe0000}   /* selected link */
