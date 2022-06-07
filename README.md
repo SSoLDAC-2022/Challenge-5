@@ -4,6 +4,10 @@
 **Number of people per team**: 3-4
 **Anticipated workload**: about 20-25 hours per person, which includes time for preparation of the presentation.
 
+## Remote participation:
+If you need to participate remotely to this challenge, you can do so via [this link](https://ugent-be.zoom.us/j/6762372999?pwd=NXFFUnIrSVFLbFliUmJyVDlYOWNwZz09
+)
+
 ## Challenge description: 
 Automated compliance checking is the “capstone” challenge for automation in the construction sector because it requires applicants to offer building models of sufficient quality to answer external scrutiny of both prescriptive and performance normative regulations. Since there is a difference of language between the normative domain and the applicant domain, there is often an intermediate dictionary/thesaurus. 
 There is little agreement on the form that these three bodies of knowledge should take, and it is unlikely that all three will be in a common form. In this challenge they will be delivered in STEP, XML and HTML.
