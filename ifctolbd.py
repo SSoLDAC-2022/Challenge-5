@@ -1,5 +1,0 @@
-# %% Import packages
-
-import ifcopenshell
-
-# %%
