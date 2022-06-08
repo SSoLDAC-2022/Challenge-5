@@ -1,0 +1,16 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix bot: <https://w3id.org/bot#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix beo:   <https://w3id.org/beo#> .
+
+
+beo:Window_Shape1 a sh:NodeShape ;
+    sh:targetClass beo:window ;
+    sh:property [
+        sh:path props:material ;
+        sh:name "Adam" ; 
+        sh:maxCount 1 ;
+    ] ;
+.
