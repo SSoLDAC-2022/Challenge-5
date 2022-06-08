@@ -1,7 +1,6 @@
 # %% Import packages
 
 import ifcopenshell
-import json
 
 from rdflib.namespace import NamespaceManager
 from rdflib import Graph, RDF, URIRef, Literal
@@ -16,10 +15,13 @@ NS_beo = "https://w3id.org/beo#"
 
 
 #%% Import IFC file
-f = ifcopenshell.open('duplex.ifc')
+f = ifcopenshell.open("duplex.ifc")
 
 buildings = f.by_type("IfcBuilding")
 stories = f.by_type("IfcBuildingStorey")
 spaces = f.by_type("IfcSpace")
+doors = f.by_type("Ifcdoor")
+walls = f.by_type("Ifcwall")
 
+print("hi")
 # %%
