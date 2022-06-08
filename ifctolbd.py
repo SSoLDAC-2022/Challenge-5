@@ -1,0 +1,5 @@
+# %% Import packages
+
+import ifcopenshell
+
+# %%
