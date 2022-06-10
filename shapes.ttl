@@ -1,16 +1,33 @@
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix bot: <https://w3id.org/bot#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
 @prefix sh: <http://www.w3.org/ns/shacl#> .
-@prefix beo:   <https://w3id.org/beo#> .
+@prefix props: <https://w3id.org/props#> .
+@prefix beo:   <https://pi.pauwel.be/voc/buildingelement#> .
+@prefix mat: <http://bimerr.iot.linkeddata.es/def/material-properties#> .
 
 
-beo:Window_Shape1 a sh:NodeShape ;
-    sh:targetClass beo:window ;
-    sh:property [
-        sh:path props:material ;
-        sh:name "Adam" ; 
-        sh:maxCount 1 ;
-    ] ;
-.
+beo:Wall a rdfs:Class, sh:NodeShape ;
+	sh:property [
+		sh:path mat:hasMaterialLayer ;
+        sh:name "Create material layer in this wall" ; 
+		sh:minCount 1 ;
+	].
+
+mat:MaterialLayer a rdfs:Class, sh:NodeShape ;
+     sh:property [
+     sh:path props:hasThickness;
+     sh:name "Specify thickness in this material" ; 
+     sh:minCount 1;
+     sh:maxCount 1;
+    ].
+
+mat:Material a rdfs:Class, sh:NodeShape ;
+     sh:property [
+     sh:path props:hasDensity;
+     sh:name "Specify density in this material" ; 
+     sh:minCount 1;
+     sh:maxCount 1;
+    ].
+
