@@ -1,0 +1,2020 @@
+@prefix props: <https://w3id.org/props#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] a sh:ValidationReport ;
+    sh:conforms false ;
+    sh:result [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_258688> ;
+            sh:resultMessage "Less than 1 values on om:Element_258688->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_244722> ;
+            sh:resultMessage "Less than 1 values on om:Element_244722->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_162716> ;
+            sh:resultMessage "Less than 1 values on om:Element_162716->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_250505> ;
+            sh:resultMessage "Less than 1 values on om:Element_250505->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_253327> ;
+            sh:resultMessage "Less than 1 values on om:Element_253327->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_281082> ;
+            sh:resultMessage "Less than 1 values on om:Element_281082->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_248606> ;
+            sh:resultMessage "Less than 1 values on om:Element_248606->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_288620> ;
+            sh:resultMessage "Less than 1 values on om:Element_288620->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_247867> ;
+            sh:resultMessage "Less than 1 values on om:Element_247867->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_288430> ;
+            sh:resultMessage "Less than 1 values on om:Element_288430->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_259427> ;
+            sh:resultMessage "Less than 1 values on om:Element_259427->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_166106> ;
+            sh:resultMessage "Less than 1 values on om:Element_166106->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_279379> ;
+            sh:resultMessage "Less than 1 values on om:Element_279379->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_284045> ;
+            sh:resultMessage "Less than 1 values on om:Element_284045->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_287024> ;
+            sh:resultMessage "Less than 1 values on om:Element_287024->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_287119> ;
+            sh:resultMessage "Less than 1 values on om:Element_287119->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_286929> ;
+            sh:resultMessage "Less than 1 values on om:Element_286929->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_244257> ;
+            sh:resultMessage "Less than 1 values on om:Element_244257->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_255192> ;
+            sh:resultMessage "Less than 1 values on om:Element_255192->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_281984> ;
+            sh:resultMessage "Less than 1 values on om:Element_281984->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_256114> ;
+            sh:resultMessage "Less than 1 values on om:Element_256114->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_245001> ;
+            sh:resultMessage "Less than 1 values on om:Element_245001->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_164226> ;
+            sh:resultMessage "Less than 1 values on om:Element_164226->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_249535> ;
+            sh:resultMessage "Less than 1 values on om:Element_249535->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_284869> ;
+            sh:resultMessage "Less than 1 values on om:Element_284869->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_269116> ;
+            sh:resultMessage "Less than 1 values on om:Element_269116->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_257503> ;
+            sh:resultMessage "Less than 1 values on om:Element_257503->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_166294> ;
+            sh:resultMessage "Less than 1 values on om:Element_166294->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_163943> ;
+            sh:resultMessage "Less than 1 values on om:Element_163943->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_258003> ;
+            sh:resultMessage "Less than 1 values on om:Element_258003->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_329596> ;
+            sh:resultMessage "Less than 1 values on om:Element_329596->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_259332> ;
+            sh:resultMessage "Less than 1 values on om:Element_259332->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_248342> ;
+            sh:resultMessage "Less than 1 values on om:Element_248342->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_286834> ;
+            sh:resultMessage "Less than 1 values on om:Element_286834->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_164938> ;
+            sh:resultMessage "Less than 1 values on om:Element_164938->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_288525> ;
+            sh:resultMessage "Less than 1 values on om:Element_288525->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_256842> ;
+            sh:resultMessage "Less than 1 values on om:Element_256842->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_260718> ;
+            sh:resultMessage "Less than 1 values on om:Element_260718->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_277710> ;
+            sh:resultMessage "Less than 1 values on om:Element_277710->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_283855> ;
+            sh:resultMessage "Less than 1 values on om:Element_283855->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_254383> ;
+            sh:resultMessage "Less than 1 values on om:Element_254383->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_330306> ;
+            sh:resultMessage "Less than 1 values on om:Element_330306->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_255924> ;
+            sh:resultMessage "Less than 1 values on om:Element_255924->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_162604> ;
+            sh:resultMessage "Less than 1 values on om:Element_162604->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_160796> ;
+            sh:resultMessage "Less than 1 values on om:Element_160796->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_255477> ;
+            sh:resultMessage "Less than 1 values on om:Element_255477->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_256954> ;
+            sh:resultMessage "Less than 1 values on om:Element_256954->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_280694> ;
+            sh:resultMessage "Less than 1 values on om:Element_280694->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_244350> ;
+            sh:resultMessage "Less than 1 values on om:Element_244350->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_256494> ;
+            sh:resultMessage "Less than 1 values on om:Element_256494->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_245187> ;
+            sh:resultMessage "Less than 1 values on om:Element_245187->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_248057> ;
+            sh:resultMessage "Less than 1 values on om:Element_248057->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_277826> ;
+            sh:resultMessage "Less than 1 values on om:Element_277826->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_165994> ;
+            sh:resultMessage "Less than 1 values on om:Element_165994->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_257788> ;
+            sh:resultMessage "Less than 1 values on om:Element_257788->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_245373> ;
+            sh:resultMessage "Less than 1 values on om:Element_245373->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_165170> ;
+            sh:resultMessage "Less than 1 values on om:Element_165170->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_166692> ;
+            sh:resultMessage "Less than 1 values on om:Element_166692->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_261480> ;
+            sh:resultMessage "Less than 1 values on om:Element_261480->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_329501> ;
+            sh:resultMessage "Less than 1 values on om:Element_329501->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_249440> ;
+            sh:resultMessage "Less than 1 values on om:Element_249440->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_255382> ;
+            sh:resultMessage "Less than 1 values on om:Element_255382->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_165054> ;
+            sh:resultMessage "Less than 1 values on om:Element_165054->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_160194> ;
+            sh:resultMessage "Less than 1 values on om:Element_160194->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_247540> ;
+            sh:resultMessage "Less than 1 values on om:Element_247540->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_256612> ;
+            sh:resultMessage "Less than 1 values on om:Element_256612->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_329691> ;
+            sh:resultMessage "Less than 1 values on om:Element_329691->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_244908> ;
+            sh:resultMessage "Less than 1 values on om:Element_244908->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_276070> ;
+            sh:resultMessage "Less than 1 values on om:Element_276070->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_288050> ;
+            sh:resultMessage "Less than 1 values on om:Element_288050->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_279267> ;
+            sh:resultMessage "Less than 1 values on om:Element_279267->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_244443> ;
+            sh:resultMessage "Less than 1 values on om:Element_244443->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_243881> ;
+            sh:resultMessage "Less than 1 values on om:Element_243881->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_252517> ;
+            sh:resultMessage "Less than 1 values on om:Element_252517->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_290902> ;
+            sh:resultMessage "Less than 1 values on om:Element_290902->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_253215> ;
+            sh:resultMessage "Less than 1 values on om:Element_253215->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_247445> ;
+            sh:resultMessage "Less than 1 values on om:Element_247445->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_330573> ;
+            sh:resultMessage "Less than 1 values on om:Element_330573->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_304880> ;
+            sh:resultMessage "Less than 1 values on om:Element_304880->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_248437> ;
+            sh:resultMessage "Less than 1 values on om:Element_248437->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_165514> ;
+            sh:resultMessage "Less than 1 values on om:Element_165514->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_261047> ;
+            sh:resultMessage "Less than 1 values on om:Element_261047->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_243976> ;
+            sh:resultMessage "Less than 1 values on om:Element_243976->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_283475> ;
+            sh:resultMessage "Less than 1 values on om:Element_283475->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_261290> ;
+            sh:resultMessage "Less than 1 values on om:Element_261290->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_160682> ;
+            sh:resultMessage "Less than 1 values on om:Element_160682->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_290416> ;
+            sh:resultMessage "Less than 1 values on om:Element_290416->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_260285> ;
+            sh:resultMessage "Less than 1 values on om:Element_260285->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_161022> ;
+            sh:resultMessage "Less than 1 values on om:Element_161022->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_254907> ;
+            sh:resultMessage "Less than 1 values on om:Element_254907->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_329122> ;
+            sh:resultMessage "Less than 1 values on om:Element_329122->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_248701> ;
+            sh:resultMessage "Less than 1 values on om:Element_248701->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_254157> ;
+            sh:resultMessage "Less than 1 values on om:Element_254157->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_281289> ;
+            sh:resultMessage "Less than 1 values on om:Element_281289->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_287860> ;
+            sh:resultMessage "Less than 1 values on om:Element_287860->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_162030> ;
+            sh:resultMessage "Less than 1 values on om:Element_162030->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_290036> ;
+            sh:resultMessage "Less than 1 values on om:Element_290036->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_288884> ;
+            sh:resultMessage "Less than 1 values on om:Element_288884->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_281177> ;
+            sh:resultMessage "Less than 1 values on om:Element_281177->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_283665> ;
+            sh:resultMessage "Less than 1 values on om:Element_283665->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_276697> ;
+            sh:resultMessage "Less than 1 values on om:Element_276697->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_258857> ;
+            sh:resultMessage "Less than 1 values on om:Element_258857->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_254033> ;
+            sh:resultMessage "Less than 1 values on om:Element_254033->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_247635> ;
+            sh:resultMessage "Less than 1 values on om:Element_247635->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_288335> ;
+            sh:resultMessage "Less than 1 values on om:Element_288335->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_283570> ;
+            sh:resultMessage "Less than 1 values on om:Element_283570->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_330472> ;
+            sh:resultMessage "Less than 1 values on om:Element_330472->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_283285> ;
+            sh:resultMessage "Less than 1 values on om:Element_283285->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_163060> ;
+            sh:resultMessage "Less than 1 values on om:Element_163060->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_165402> ;
+            sh:resultMessage "Less than 1 values on om:Element_165402->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_260952> ;
+            sh:resultMessage "Less than 1 values on om:Element_260952->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_245466> ;
+            sh:resultMessage "Less than 1 values on om:Element_245466->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_281794> ;
+            sh:resultMessage "Less than 1 values on om:Element_281794->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_286422> ;
+            sh:resultMessage "Less than 1 values on om:Element_286422->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_253439> ;
+            sh:resultMessage "Less than 1 values on om:Element_253439->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_279155> ;
+            sh:resultMessage "Less than 1 values on om:Element_279155->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_289719> ;
+            sh:resultMessage "Less than 1 values on om:Element_289719->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_305366> ;
+            sh:resultMessage "Less than 1 values on om:Element_305366->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_244536> ;
+            sh:resultMessage "Less than 1 values on om:Element_244536->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_243786> ;
+            sh:resultMessage "Less than 1 values on om:Element_243786->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_258208> ;
+            sh:resultMessage "Less than 1 values on om:Element_258208->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_306372> ;
+            sh:resultMessage "Less than 1 values on om:Element_306372->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_282873> ;
+            sh:resultMessage "Less than 1 values on om:Element_282873->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_282535> ;
+            sh:resultMessage "Less than 1 values on om:Element_282535->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_304542> ;
+            sh:resultMessage "Less than 1 values on om:Element_304542->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_162238> ;
+            sh:resultMessage "Less than 1 values on om:Element_162238->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_280358> ;
+            sh:resultMessage "Less than 1 values on om:Element_280358->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_280031> ;
+            sh:resultMessage "Less than 1 values on om:Element_280031->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_257598> ;
+            sh:resultMessage "Less than 1 values on om:Element_257598->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_248891> ;
+            sh:resultMessage "Less than 1 values on om:Element_248891->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_160568> ;
+            sh:resultMessage "Less than 1 values on om:Element_160568->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_250315> ;
+            sh:resultMessage "Less than 1 values on om:Element_250315->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_329294> ;
+            sh:resultMessage "Less than 1 values on om:Element_329294->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_253915> ;
+            sh:resultMessage "Less than 1 values on om:Element_253915->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_247350> ;
+            sh:resultMessage "Less than 1 values on om:Element_247350->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_291166> ;
+            sh:resultMessage "Less than 1 values on om:Element_291166->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_276372> ;
+            sh:resultMessage "Less than 1 values on om:Element_276372->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_290321> ;
+            sh:resultMessage "Less than 1 values on om:Element_290321->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_260623> ;
+            sh:resultMessage "Less than 1 values on om:Element_260623->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_247962> ;
+            sh:resultMessage "Less than 1 values on om:Element_247962->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_261575> ;
+            sh:resultMessage "Less than 1 values on om:Element_261575->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_258952> ;
+            sh:resultMessage "Less than 1 values on om:Element_258952->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_291071> ;
+            sh:resultMessage "Less than 1 values on om:Element_291071->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_254643> ;
+            sh:resultMessage "Less than 1 values on om:Element_254643->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_287626> ;
+            sh:resultMessage "Less than 1 values on om:Element_287626->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_257123> ;
+            sh:resultMessage "Less than 1 values on om:Element_257123->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_257408> ;
+            sh:resultMessage "Less than 1 values on om:Element_257408->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_261385> ;
+            sh:resultMessage "Less than 1 values on om:Element_261385->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_247181> ;
+            sh:resultMessage "Less than 1 values on om:Element_247181->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_253565> ;
+            sh:resultMessage "Less than 1 values on om:Element_253565->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_260380> ;
+            sh:resultMessage "Less than 1 values on om:Element_260380->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_252985> ;
+            sh:resultMessage "Less than 1 values on om:Element_252985->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_252635> ;
+            sh:resultMessage "Less than 1 values on om:Element_252635->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_256399> ;
+            sh:resultMessage "Less than 1 values on om:Element_256399->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_164340> ;
+            sh:resultMessage "Less than 1 values on om:Element_164340->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_282968> ;
+            sh:resultMessage "Less than 1 values on om:Element_282968->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_162484> ;
+            sh:resultMessage "Less than 1 values on om:Element_162484->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_165648> ;
+            sh:resultMessage "Less than 1 values on om:Element_165648->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_163176> ;
+            sh:resultMessage "Less than 1 values on om:Element_163176->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_294197> ;
+            sh:resultMessage "Less than 1 values on om:Element_294197->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_257693> ;
+            sh:resultMessage "Less than 1 values on om:Element_257693->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_167250> ;
+            sh:resultMessage "Less than 1 values on om:Element_167250->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_285989> ;
+            sh:resultMessage "Less than 1 values on om:Element_285989->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_164038> ;
+            sh:resultMessage "Less than 1 values on om:Element_164038->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_258593> ;
+            sh:resultMessage "Less than 1 values on om:Element_258593->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_257218> ;
+            sh:resultMessage "Less than 1 values on om:Element_257218->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_160456> ;
+            sh:resultMessage "Less than 1 values on om:Element_160456->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_280987> ;
+            sh:resultMessage "Less than 1 values on om:Element_280987->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_249630> ;
+            sh:resultMessage "Less than 1 values on om:Element_249630->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_279493> ;
+            sh:resultMessage "Less than 1 values on om:Element_279493->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_260171> ;
+            sh:resultMessage "Less than 1 values on om:Element_260171->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_249725> ;
+            sh:resultMessage "Less than 1 values on om:Element_249725->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_285894> ;
+            sh:resultMessage "Less than 1 values on om:Element_285894->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_290807> ;
+            sh:resultMessage "Less than 1 values on om:Element_290807->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_285186> ;
+            sh:resultMessage "Less than 1 values on om:Element_285186->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_161935> ;
+            sh:resultMessage "Less than 1 values on om:Element_161935->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_283950> ;
+            sh:resultMessage "Less than 1 values on om:Element_283950->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_256209> ;
+            sh:resultMessage "Less than 1 values on om:Element_256209->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_258308> ;
+            sh:resultMessage "Less than 1 values on om:Element_258308->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_288715> ;
+            sh:resultMessage "Less than 1 values on om:Element_288715->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_275901> ;
+            sh:resultMessage "Less than 1 values on om:Element_275901->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_258403> ;
+            sh:resultMessage "Less than 1 values on om:Element_258403->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_253797> ;
+            sh:resultMessage "Less than 1 values on om:Element_253797->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_281889> ;
+            sh:resultMessage "Less than 1 values on om:Element_281889->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_244629> ;
+            sh:resultMessage "Less than 1 values on om:Element_244629->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_279617> ;
+            sh:resultMessage "Less than 1 values on om:Element_279617->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_164710> ;
+            sh:resultMessage "Less than 1 values on om:Element_164710->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_248796> ;
+            sh:resultMessage "Less than 1 values on om:Element_248796->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_305049> ;
+            sh:resultMessage "Less than 1 values on om:Element_305049->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_161142> ;
+            sh:resultMessage "Less than 1 values on om:Element_161142->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_284330> ;
+            sh:resultMessage "Less than 1 values on om:Element_284330->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_245652> ;
+            sh:resultMessage "Less than 1 values on om:Element_245652->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_288145> ;
+            sh:resultMessage "Less than 1 values on om:Element_288145->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_244071> ;
+            sh:resultMessage "Less than 1 values on om:Element_244071->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_163402> ;
+            sh:resultMessage "Less than 1 values on om:Element_163402->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_276165> ;
+            sh:resultMessage "Less than 1 values on om:Element_276165->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_165882> ;
+            sh:resultMessage "Less than 1 values on om:Element_165882->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_249250> ;
+            sh:resultMessage "Less than 1 values on om:Element_249250->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_248247> ;
+            sh:resultMessage "Less than 1 values on om:Element_248247->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_276260> ;
+            sh:resultMessage "Less than 1 values on om:Element_276260->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_167086> ;
+            sh:resultMessage "Less than 1 values on om:Element_167086->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_283380> ;
+            sh:resultMessage "Less than 1 values on om:Element_283380->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_249060> ;
+            sh:resultMessage "Less than 1 values on om:Element_249060->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_277921> ;
+            sh:resultMessage "Less than 1 values on om:Element_277921->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_261818> ;
+            sh:resultMessage "Less than 1 values on om:Element_261818->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_245094> ;
+            sh:resultMessage "Less than 1 values on om:Element_245094->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_252867> ;
+            sh:resultMessage "Less than 1 values on om:Element_252867->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_255002> ;
+            sh:resultMessage "Less than 1 values on om:Element_255002->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_282630> ;
+            sh:resultMessage "Less than 1 values on om:Element_282630->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_254812> ;
+            sh:resultMessage "Less than 1 values on om:Element_254812->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_253099> ;
+            sh:resultMessage "Less than 1 values on om:Element_253099->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_277425> ;
+            sh:resultMessage "Less than 1 values on om:Element_277425->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_286232> ;
+            sh:resultMessage "Less than 1 values on om:Element_286232->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_256726> ;
+            sh:resultMessage "Less than 1 values on om:Element_256726->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_287531> ;
+            sh:resultMessage "Less than 1 values on om:Element_287531->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_330674> ;
+            sh:resultMessage "Less than 1 values on om:Element_330674->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_283760> ;
+            sh:resultMessage "Less than 1 values on om:Element_283760->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_253679> ;
+            sh:resultMessage "Less than 1 values on om:Element_253679->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_249820> ;
+            sh:resultMessage "Less than 1 values on om:Element_249820->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_255097> ;
+            sh:resultMessage "Less than 1 values on om:Element_255097->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_329406> ;
+            sh:resultMessage "Less than 1 values on om:Element_329406->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_247086> ;
+            sh:resultMessage "Less than 1 values on om:Element_247086->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_304785> ;
+            sh:resultMessage "Less than 1 values on om:Element_304785->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_305905> ;
+            sh:resultMessage "Less than 1 values on om:Element_305905->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_250600> ;
+            sh:resultMessage "Less than 1 values on om:Element_250600->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_243689> ;
+            sh:resultMessage "Less than 1 values on om:Element_243689->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_255287> ;
+            sh:resultMessage "Less than 1 values on om:Element_255287->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_246801> ;
+            sh:resultMessage "Less than 1 values on om:Element_246801->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_256304> ;
+            sh:resultMessage "Less than 1 values on om:Element_256304->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_292754> ;
+            sh:resultMessage "Less than 1 values on om:Element_292754->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_284235> ;
+            sh:resultMessage "Less than 1 values on om:Element_284235->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_245559> ;
+            sh:resultMessage "Less than 1 values on om:Element_245559->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_259142> ;
+            sh:resultMessage "Less than 1 values on om:Element_259142->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_284140> ;
+            sh:resultMessage "Less than 1 values on om:Element_284140->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_287955> ;
+            sh:resultMessage "Less than 1 values on om:Element_287955->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_164468> ;
+            sh:resultMessage "Less than 1 values on om:Element_164468->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_161823> ;
+            sh:resultMessage "Less than 1 values on om:Element_161823->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_165290> ;
+            sh:resultMessage "Less than 1 values on om:Element_165290->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_286517> ;
+            sh:resultMessage "Less than 1 values on om:Element_286517->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_249345> ;
+            sh:resultMessage "Less than 1 values on om:Element_249345->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_280863> ;
+            sh:resultMessage "Less than 1 values on om:Element_280863->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_260076> ;
+            sh:resultMessage "Less than 1 values on om:Element_260076->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_163288> ;
+            sh:resultMessage "Less than 1 values on om:Element_163288->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_162832> ;
+            sh:resultMessage "Less than 1 values on om:Element_162832->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_277594> ;
+            sh:resultMessage "Less than 1 values on om:Element_277594->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_280147> ;
+            sh:resultMessage "Less than 1 values on om:Element_280147->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_286327> ;
+            sh:resultMessage "Less than 1 values on om:Element_286327->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_164822> ;
+            sh:resultMessage "Less than 1 values on om:Element_164822->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_246991> ;
+            sh:resultMessage "Less than 1 values on om:Element_246991->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_246514> ;
+            sh:resultMessage "Less than 1 values on om:Element_246514->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_257883> ;
+            sh:resultMessage "Less than 1 values on om:Element_257883->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_252751> ;
+            sh:resultMessage "Less than 1 values on om:Element_252751->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_250410> ;
+            sh:resultMessage "Less than 1 values on om:Element_250410->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_162356> ;
+            sh:resultMessage "Less than 1 values on om:Element_162356->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_244815> ;
+            sh:resultMessage "Less than 1 values on om:Element_244815->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_165760> ;
+            sh:resultMessage "Less than 1 values on om:Element_165760->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_290131> ;
+            sh:resultMessage "Less than 1 values on om:Element_290131->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_164596> ;
+            sh:resultMessage "Less than 1 values on om:Element_164596->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_249155> ;
+            sh:resultMessage "Less than 1 values on om:Element_249155->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_259981> ;
+            sh:resultMessage "Less than 1 values on om:Element_259981->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_160908> ;
+            sh:resultMessage "Less than 1 values on om:Element_160908->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_258098> ;
+            sh:resultMessage "Less than 1 values on om:Element_258098->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_256019> ;
+            sh:resultMessage "Less than 1 values on om:Element_256019->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_281403> ;
+            sh:resultMessage "Less than 1 values on om:Element_281403->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_244164> ;
+            sh:resultMessage "Less than 1 values on om:Element_244164->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_288240> ;
+            sh:resultMessage "Less than 1 values on om:Element_288240->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_290226> ;
+            sh:resultMessage "Less than 1 values on om:Element_290226->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_247772> ;
+            sh:resultMessage "Less than 1 values on om:Element_247772->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_246896> ;
+            sh:resultMessage "Less than 1 values on om:Element_246896->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_162948> ;
+            sh:resultMessage "Less than 1 values on om:Element_162948->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_287288> ;
+            sh:resultMessage "Less than 1 values on om:Element_287288->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_246706> ;
+            sh:resultMessage "Less than 1 values on om:Element_246706->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_259237> ;
+            sh:resultMessage "Less than 1 values on om:Element_259237->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_282292> ;
+            sh:resultMessage "Less than 1 values on om:Element_282292->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_245280> ;
+            sh:resultMessage "Less than 1 values on om:Element_245280->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_257313> ;
+            sh:resultMessage "Less than 1 values on om:Element_257313->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_259047> ;
+            sh:resultMessage "Less than 1 values on om:Element_259047->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_254271> ;
+            sh:resultMessage "Less than 1 values on om:Element_254271->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_259522> ;
+            sh:resultMessage "Less than 1 values on om:Element_259522->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_248152> ;
+            sh:resultMessage "Less than 1 values on om:Element_248152->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_252422> ;
+            sh:resultMessage "Less than 1 values on om:Element_252422->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_280263> ;
+            sh:resultMessage "Less than 1 values on om:Element_280263->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_260830> ;
+            sh:resultMessage "Less than 1 values on om:Element_260830->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_291483> ;
+            sh:resultMessage "Less than 1 values on om:Element_291483->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_285799> ;
+            sh:resultMessage "Less than 1 values on om:Element_285799->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_246611> ;
+            sh:resultMessage "Less than 1 values on om:Element_246611->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#Element_258498> ;
+            sh:resultMessage "Less than 1 values on om:Element_258498->props:hasMaterial" ;
+            sh:resultPath props:hasMaterial ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n6517341b503646c999b313630f6c1c99b3 ] .
+
+_:n6517341b503646c999b313630f6c1c99b3 sh:minCount 1 ;
+    sh:name "No material property in the wall" ;
+    sh:path props:hasMaterial .
+

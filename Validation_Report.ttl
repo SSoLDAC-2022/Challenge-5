@@ -1,0 +1,2000 @@
+@prefix props: <https://w3id.org/props#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] a sh:ValidationReport ;
+    sh:conforms false ;
+    sh:result [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_uscdNI> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_uscdNI->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_SIg1ao> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_SIg1ao->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_XHrpAH> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_XHrpAH->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_SIg1an> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_SIg1an->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_qcN6Hb> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_qcN6Hb->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_IEnOM4> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_IEnOM4->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_5lnVKF> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_5lnVKF->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_qcN6oR> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_qcN6oR->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_pYwdhK> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_pYwdhK->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_woVBKn> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_woVBKn->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_gVRF97> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_gVRF97->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_qcN6Yy> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_qcN6Yy->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_PRAxmP> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_PRAxmP->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_gVR8d8> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_gVR8d8->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_9yBtNc> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_9yBtNc->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_PLlikS> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_PLlikS->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_qcN6hr> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_qcN6hr->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_XHrpU_> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_XHrpU_->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_RLTlkM> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_RLTlkM->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_woVBIe> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_woVBIe->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_qcN6vI> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_qcN6vI->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_NqxEKh> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_NqxEKh->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_XHroyp> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_XHroyp->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_XHrpL_> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_XHrpL_->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_hf51X1> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_hf51X1->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_hf51jx> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_hf51jx->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_pYwdg4> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_pYwdg4->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_mEnj_g> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_mEnj_g->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_woVBSN> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_woVBSN->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_XHrpxh> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_XHrpxh->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_HgLqWp> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_HgLqWp->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_IEnNCR> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_IEnNCR->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_2egFGW> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_2egFGW->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_XHrp73> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_XHrp73->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_gVRF8L> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_gVRF8L->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_IEnN8o> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_IEnN8o->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_IEnN90> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_IEnN90->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_sOH6_1> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_sOH6_1->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_gVRF2n> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_gVRF2n->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_SIg19w> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_SIg19w->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_pYwdna> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_pYwdna->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_mEnjmh> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_mEnjmh->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_qcN6e_> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_qcN6e_->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material__qUIBb> ;
+            sh:resultMessage "Less than 1 values on om:inst_material__qUIBb->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_qcN6vW> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_qcN6vW->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_Zdd3GP> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_Zdd3GP->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_IEnNEv> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_IEnNEv->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_SIg1aq> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_SIg1aq->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_Zdd33J> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_Zdd33J->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_v31nk6> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_v31nk6->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_OZZ6RY> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_OZZ6RY->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_IEnN8P> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_IEnN8P->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_qcN6Jy> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_qcN6Jy->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_2egF83> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_2egF83->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_pYwdoo> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_pYwdoo->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_sOH6p7> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_sOH6p7->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_5lnVU_> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_5lnVU_->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_hf51ko> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_hf51ko->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_vYym6p> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_vYym6p->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_Zdd3Vh> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_Zdd3Vh->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_Zdd3JP> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_Zdd3JP->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_MZopVH> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_MZopVH->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_dO1mNp> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_dO1mNp->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_hf51iT> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_hf51iT->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_XHrp_K> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_XHrp_K->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_HwzR0S> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_HwzR0S->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_qcN6Nb> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_qcN6Nb->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_5lnVJC> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_5lnVJC->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_1Aj_RF> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_1Aj_RF->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_dO1mzw> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_dO1mzw->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_Zdd322> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_Zdd322->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_v31nck> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_v31nck->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_vYym3J> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_vYym3J->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_XHrpws> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_XHrpws->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_hf51Zn> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_hf51Zn->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_sOH6ow> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_sOH6ow->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_9yBt8B> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_9yBt8B->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_Zdd3HG> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_Zdd3HG->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_XHrpNp> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_XHrpNp->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_SIg1k5> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_SIg1k5->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_2egFTF> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_2egFTF->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_1Aj_RE> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_1Aj_RE->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_5lnVVi> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_5lnVVi->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_nqjvvu> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_nqjvvu->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_HgLqlY> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_HgLqlY->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_dO1mxj> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_dO1mxj->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_vYym0G> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_vYym0G->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_9yBtIu> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_9yBtIu->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_qcN6w9> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_qcN6w9->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_IEnNC_> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_IEnNC_->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_qcNPfV> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_qcNPfV->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_Zdd3Cp> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_Zdd3Cp->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_qcN6IA> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_qcN6IA->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_9yBtLb> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_9yBtLb->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_qcN6or> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_qcN6or->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_Zdd3Jv> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_Zdd3Jv->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_fF9O5L> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_fF9O5L->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_dO1m_V> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_dO1m_V->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_XHroub> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_XHroub->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_IEnOwu> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_IEnOwu->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_PLlibI> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_PLlibI->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_2egFIE> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_2egFIE->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_PRAxlW> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_PRAxlW->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_qcNPfb> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_qcNPfb->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_1twGQg> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_1twGQg->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_XHrprS> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_XHrprS->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_NqxEKq> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_NqxEKq->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_dO1mty> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_dO1mty->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_NqxEX0> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_NqxEX0->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_XHrpth> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_XHrpth->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_dO1mUX> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_dO1mUX->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_gVRFAO> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_gVRFAO->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_7JmWBn> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_7JmWBn->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_1Aj_R8> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_1Aj_R8->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_OZZ6Mp> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_OZZ6Mp->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material__qUIAq> ;
+            sh:resultMessage "Less than 1 values on om:inst_material__qUIAq->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_vYym7k> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_vYym7k->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_PRAxk6> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_PRAxk6->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_2egFSw> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_2egFSw->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_SIg19v> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_SIg19v->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_gVRF0k> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_gVRF0k->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_qcN6bD> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_qcN6bD->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_XHrpMf> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_XHrpMf->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_qcN6KQ> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_qcN6KQ->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_qcN7IA> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_qcN7IA->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_dO1nAS> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_dO1nAS->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_RLTll8> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_RLTll8->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_qcN6cq> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_qcN6cq->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_v31nhg> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_v31nhg->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_RLTliQ> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_RLTliQ->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_OZZ6PL> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_OZZ6PL->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_IEnNBZ> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_IEnNBZ->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_XHrptN> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_XHrptN->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_NqxEcF> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_NqxEcF->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_pYwdua> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_pYwdua->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_v31nlS> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_v31nlS->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_5lnVQ7> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_5lnVQ7->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_SIg1Zb> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_SIg1Zb->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_5lnV5X> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_5lnV5X->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_ynFEMV> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_ynFEMV->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_IEnNDu> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_IEnNDu->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_OZZ6NL> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_OZZ6NL->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_HgLqZm> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_HgLqZm->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_uscdhT> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_uscdhT->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_dO1m_A> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_dO1m_A->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_OZZ6OO> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_OZZ6OO->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_dO1mLq> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_dO1mLq->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_2eg0iV> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_2eg0iV->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_XHrp4g> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_XHrp4g->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_1twGGR> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_1twGGR->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_qcN6_L> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_qcN6_L->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_dO1mG3> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_dO1mG3->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_qcN6L2> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_qcN6L2->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_5lnVMY> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_5lnVMY->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_dO1mi0> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_dO1mi0->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_dO1mxH> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_dO1mxH->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_dO1maQ> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_dO1maQ->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_MUJo00> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_MUJo00->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_2egF34> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_2egF34->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material__ALQkg> ;
+            sh:resultMessage "Less than 1 values on om:inst_material__ALQkg->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_sOH6mR> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_sOH6mR->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_2egFA1> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_2egFA1->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_SIg1ap> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_SIg1ap->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_HgLqb0> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_HgLqb0->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_hf51lh> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_hf51lh->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_HwzR3R> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_HwzR3R->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_PRAxnq> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_PRAxnq->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_hf51al> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_hf51al->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_SIg1ax> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_SIg1ax->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_SIg1Wm> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_SIg1Wm->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_XHrpWs> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_XHrpWs->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_IEnNFQ> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_IEnNFQ->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_NqxEao> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_NqxEao->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_sOH6n5> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_sOH6n5->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_qcN6mm> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_qcN6mm->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_NPpoGa> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_NPpoGa->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_pYwdva> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_pYwdva->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_dO1mi3> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_dO1mi3->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_2egFJr> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_2egFJr->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_PLlig_> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_PLlig_->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_gVRFCD> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_gVRFCD->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_IEnNDJ> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_IEnNDJ->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_gVRF5T> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_gVRF5T->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_SIg0Lb> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_SIg0Lb->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_XHrp51> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_XHrp51->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_Zdd3TQ> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_Zdd3TQ->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_gVRF3X> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_gVRF3X->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_RLTlFZ> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_RLTlFZ->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_PRAxkj> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_PRAxkj->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_mEnjmB> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_mEnjmB->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_pYwdvT> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_pYwdvT->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_dO1mi1> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_dO1mi1->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material__ALQop> ;
+            sh:resultMessage "Less than 1 values on om:inst_material__ALQop->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_J_puTQ> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_J_puTQ->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_Zdd3Uz> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_Zdd3Uz->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_qcN6dY> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_qcN6dY->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_SIg0MH> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_SIg0MH->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_woVBV3> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_woVBV3->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_5lnVNK> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_5lnVNK->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_woVBO8> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_woVBO8->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_SIg1Cj> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_SIg1Cj->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_IEnOwQ> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_IEnOwQ->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_hf51Y2> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_hf51Y2->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_nqjvvv> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_nqjvvv->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_pYwdsS> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_pYwdsS->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_qcN6lH> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_qcN6lH->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_XHrplh> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_XHrplh->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_PLliXO> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_PLliXO->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_hf51Y_> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_hf51Y_->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_SIg1ar> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_SIg1ar->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_Zdd3MB> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_Zdd3MB->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_qcN6dz> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_qcN6dz->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_OZZ6Ok> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_OZZ6Ok->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_gVRFE6> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_gVRFE6->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_qcN6fN> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_qcN6fN->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_qcN6g1> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_qcN6g1->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_XHrpy9> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_XHrpy9->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_uscdnq> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_uscdnq->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_9yBtgS> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_9yBtgS->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_mEnjpF> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_mEnjpF->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_2egF1S> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_2egF1S->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_sOH6p_> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_sOH6p_->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_NqxEdZ> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_NqxEdZ->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_dO1mi2> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_dO1mi2->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_pYwdfR> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_pYwdfR->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_Zdd30l> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_Zdd30l->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_XHrpfG> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_XHrpfG->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_XHrprb> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_XHrprb->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_pYwdoQ> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_pYwdoQ->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_OZZ6Nf> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_OZZ6Nf->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_dO1mIG> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_dO1mIG->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_SIg1az> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_SIg1az->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_mEnjpI> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_mEnjpI->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_2egF2S> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_2egF2S->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_HgLqn2> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_HgLqn2->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_2egF6_> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_2egF6_->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_HgLqpy> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_HgLqpy->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_HgLqkh> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_HgLqkh->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_SIg1aw> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_SIg1aw->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_HgLqaB> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_HgLqaB->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material__qUHpT> ;
+            sh:resultMessage "Less than 1 values on om:inst_material__qUHpT->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_XHrpqD> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_XHrpqD->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_5lnVHx> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_5lnVHx->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_dO1muR> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_dO1muR->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_dO1msb> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_dO1msb->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_qcN7Nf> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_qcN7Nf->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_pYwdwc> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_pYwdwc->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_IEnNB3> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_IEnNB3->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_qcN6ae> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_qcN6ae->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_qcN6GX> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_qcN6GX->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_XHrouu> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_XHrouu->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_SIg19u> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_SIg19u->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_MZopPd> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_MZopPd->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material__ALQmH> ;
+            sh:resultMessage "Less than 1 values on om:inst_material__ALQmH->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_PLlitE> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_PLlitE->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_sOH6mb> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_sOH6mb->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_IEnOxM> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_IEnOxM->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_qcN6py> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_qcN6py->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_9yBtN6> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_9yBtN6->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_9yBtPA> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_9yBtPA->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_gVRFF0> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_gVRFF0->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_Zdd3Sl> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_Zdd3Sl->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_OZZ6QT> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_OZZ6QT->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_1Aj_R9> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_1Aj_R9->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_SIg0JQ> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_SIg0JQ->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_PLlifx> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_PLlifx->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_gVRF1P> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_gVRF1P->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_2egFVy> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_2egFVy->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_qcN6z8> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_qcN6z8->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_nqjvvw> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_nqjvvw->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_XHrpLR> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_XHrpLR->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_qcN6_p> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_qcN6_p->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_Z6OXwP> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_Z6OXwP->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_2egF2w> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_2egF2w->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_sOH6nd> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_sOH6nd->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_IEnNEO> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_IEnNEO->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_ys3Kcc> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_ys3Kcc->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_5lnVIl> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_5lnVIl->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_2egFUb> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_2egFUb->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_SIg1ay> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_SIg1ay->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_XHrpW8> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_XHrpW8->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_IEnNAE> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_IEnNAE->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_SIg19t> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_SIg19t->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://openmetrics.eu/openmetrics#inst_material_qcN6jm> ;
+            sh:resultMessage "Less than 1 values on om:inst_material_qcN6jm->props:hasDensity" ;
+            sh:resultPath props:hasDensity ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n71b1e39ad40b4571964a325420f63675b3 ] .
+
+_:n71b1e39ad40b4571964a325420f63675b3 sh:maxCount 1 ;
+    sh:minCount 1 ;
+    sh:name "Specify density in this material" ;
+    sh:path props:hasDensity .
+

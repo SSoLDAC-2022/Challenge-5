@@ -1,0 +1,3639 @@
+@prefix schema: <http://schema.org#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix brick: <https://brickschema.org/schema/1.1/Brick#> .
+@prefix beo:   <https://pi.pauwel.be/voc/buildingelement#> .
+@prefix om:    <http://openmetrics.eu/openmetrics#> .
+@prefix props: <https://w3id.org/props#> .
+
+om:Space_8795  a                 brick:Space , bot:Space ;
+        rdfs:label               "28" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "17.5412834745277"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjiiJP" .
+
+om:Element_278268  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:516574" ;
+        props:hasArea            "2.195"^^xsd:double ;
+        props:hasCompressedGuid  "3ijYEfeqDFGxfiNo1Aj$VQ" ;
+        props:hasVolume          "0.130000000000003"^^xsd:double .
+
+om:Element_287203  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:528128" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrp1d" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_162484  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:410843" ;
+        bot:hasSubElement        om:Element_277266 , om:Element_277003 , om:Element_163839 , om:Element_163765 , om:Element_163486 ;
+        props:hasCompressedGuid  "3mt7RMhb12DO8XoPgVRFAO" .
+
+om:Element_282450  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:521110" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "2TDMdm0iH0gRGTlH$ALQiD" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Space_59268  a                brick:Space , bot:Space ;
+        rdfs:label               "154" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "11.1026999999995"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWca" .
+
+om:Element_165514  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:425130" ;
+        bot:hasSubElement        om:Element_279058 ;
+        props:hasCompressedGuid  "3Mkf_TSoPA4Rmf8t2egFVy" .
+
+om:Element_288620  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:531324" ;
+        props:hasCompressedGuid  "0JLpf7M$LDUfFLMj5lnVU_" .
+
+om:Element_284330  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:524976" ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrptN" .
+
+om:Element_290574  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:535882" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3O8NzrQbT6LQn_eJ9yBtCz" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_106932  a             beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:357103" ;
+        props:hasCompressedGuid  "2pFj8KG518sAG6GqA2E6fc" .
+
+om:Space_87971  a                brick:Space , bot:Space ;
+        rdfs:label               "170" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "5.63750000000183"^^xsd:double ;
+        props:hasCompressedGuid  "0jin3tJK1F98a1vkIBEcfc" .
+
+om:Element_290321  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:535473" ;
+        bot:hasSubElement        om:Element_290574 ;
+        props:hasCompressedGuid  "3O8NzrQbT6LQn_eJ9yBtN6" .
+
+om:Element_254157  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:492316" ;
+        bot:hasSubElement        om:Element_276595 ;
+        props:hasCompressedGuid  "3wAqibhLLFjg1AKNIEnOwu" .
+
+om:Element_249725  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:458754" ;
+        bot:hasSubElement        om:Element_250039 , om:Element_249974 ;
+        props:hasCompressedGuid  "0p4A5YpS57b9iUXUqcNPfV" .
+
+om:Space_25252  a                brick:Space , bot:Space ;
+        rdfs:label               "76" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "8.22906000000009"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmW7C" .
+
+om:Element_248796  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:456390" ;
+        props:hasCompressedGuid  "0p4A5YpS57b9iUXUqcN6oR" .
+
+om:Element_257408  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:499868" ;
+        props:hasCompressedGuid  "2wZuWyYKL2Q9bXfFmEnjpI" .
+
+om:Element_254812  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:496006" ;
+        props:hasCompressedGuid  "3RIkctSZb37ecUHpOZZ6NL" .
+
+om:Element_258857  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:503088" ;
+        props:hasCompressedGuid  "0gCmn8wtzE2gdjYhsOH6ow" .
+
+om:Space_50026  a                brick:Space , bot:Space ;
+        rdfs:label               "130" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "11.3099999999999"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWb_" .
+
+om:Space_34131  a                brick:Space , bot:Space ;
+        rdfs:label               "98" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "4.50981581265833"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWW7" .
+
+om:Element_164710  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:424680" ;
+        props:hasCompressedGuid  "3Mkf_TSoPA4Rmf8t2egF6_" .
+
+om:Space_16286  a                brick:Space , bot:Space ;
+        rdfs:label               "49" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "1.90000000000004"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjiiAt" .
+
+om:Element_161823  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:407013" ;
+        props:hasCompressedGuid  "2br6Msl8bFw9aWJg1twGGR" .
+
+om:BuildingStorey_160
+        a                        bot:Storey , brick:Floor ;
+        rdfs:label               "9th Floor" ;
+        brick:hasPart            om:Space_35751 , om:Space_30121 , om:Space_56049 , om:Space_38473 , om:Space_40814 , om:Space_28331 , om:Space_32624 , om:Space_38056 , om:Space_86051 , om:Space_50558 , om:Space_37081 , om:Space_50796 , om:Space_40438 , om:Space_46779 , om:Space_45342 , om:Space_57514 , om:Space_55566 , om:Space_58051 , om:Space_53498 , om:Space_35473 , om:Space_51843 , om:Space_41170 , om:Space_28942 , om:Space_47241 , om:Space_43592 , om:Space_52691 , om:Space_57788 , om:Space_26979 , om:Space_34997 , om:Space_39316 , om:Space_26151 , om:Space_42830 , om:Space_32253 , om:Space_30556 , om:Space_47624 , om:Space_53031 , om:Space_60049 , om:Space_34131 , om:Space_41891 , om:Space_46439 , om:Space_49679 , om:Space_50320 , om:Space_48382 , om:Space_44385 , om:Space_49416 , om:Space_88351 , om:Space_45859 , om:Space_88688 , om:Space_51120 , om:Space_53886 , om:Space_31112 , om:Space_29284 , om:Space_58289 , om:Space_56984 , om:Space_27546 , om:Space_34731 , om:Space_55168 , om:Space_34493 , om:Space_56612 , om:Space_58885 , om:Space_58583 , om:Space_26474 , om:Space_59268 , om:Space_54530 , om:Space_35249 , om:Space_25792 , om:Space_39721 , om:Space_87634 , om:Space_50026 , om:Space_42466 , om:Space_26723 , om:Space_52183 , om:Space_25522 , om:Space_85568 , om:Space_87971 , om:Space_33025 , om:Space_44835 , om:Space_27973 , om:Space_38968 ;
+        brick:isPartOf           om:Building_141 ;
+        bot:containsElement      om:Element_248437 , om:Element_255477 , om:Element_257503 , om:Element_282873 , om:Element_248796 , om:Element_284235 , om:Element_288525 , om:Element_255924 , om:Element_246801 , om:Element_249535 , om:Element_256304 , om:Element_249250 , om:Element_304880 , om:Element_288884 , om:Element_248057 , om:Element_247772 , om:Element_249630 , om:Element_304542 , om:Element_287288 , om:Element_259237 , om:Element_255382 , om:Element_248606 , om:Element_247181 , om:Element_246706 , om:Element_282630 , om:Element_290131 , om:Element_288240 , om:Element_257788 , om:Element_287626 , om:Element_247540 , om:Element_284045 , om:Element_248342 , om:Element_288620 , om:Element_249440 , om:Element_285894 , om:Element_283855 , om:Element_246991 , om:Element_255097 , om:Element_250315 , om:Element_283950 , om:Element_284140 , om:Element_286232 , om:Element_249060 , om:Element_289719 , om:Element_304785 , om:Element_250600 , om:Element_248701 , om:Element_258952 , om:Element_255192 , om:Element_257123 , om:Element_285799 , om:Element_255287 , om:Element_305366 , om:Element_287955 , om:Element_287860 , om:Element_283665 , om:Element_290321 , om:Element_252517 , om:Element_247635 , om:Element_287119 , om:Element_288335 , om:Element_288050 , om:Element_250505 , om:Element_256114 , om:Element_288715 , om:Element_250410 , om:Element_252422 , om:Element_283380 , om:Element_259047 , om:Element_166692 , om:Element_258857 , om:Element_259427 , om:Element_254812 , om:Element_259142 , om:Element_247867 , om:Element_249155 , om:Element_286517 , om:Element_294197 , om:Element_257218 , om:Element_285186 , om:Element_248891 , om:Element_256399 , om:Element_284869 , om:Element_257598 , om:Element_283760 , om:Element_256019 , om:Element_288145 , om:Element_256494 , om:Element_283570 , om:Element_248152 , om:Element_282968 , om:Element_287024 , om:Element_246896 , om:Element_287531 , om:Element_249345 , om:Element_284330 , om:Element_256209 , om:Element_305905 , om:Element_247962 , om:Element_254907 , om:Element_306372 , om:Element_286327 , om:Element_290226 , om:Element_246611 , om:Element_257313 , om:Element_249820 , om:Element_259332 , om:Element_286422 , om:Element_282292 , om:Element_290416 , om:Element_305049 , om:Element_290036 , om:Element_286834 , om:Element_283285 , om:Element_247445 , om:Element_257883 , om:Element_255002 , om:Element_246514 , om:Element_288430 , om:Element_257693 , om:Element_249725 , om:Element_291483 , om:Element_247350 , om:Element_286929 , om:Element_283475 , om:Element_248247 , om:Element_247086 , om:Element_285989 , om:Element_282535 , om:Element_259522 , om:Element_257408 ;
+        bot:hasSpace             om:Space_48382 , om:Space_34731 , om:Space_34997 , om:Space_41891 , om:Space_58051 , om:Space_31112 , om:Space_33025 , om:Space_25792 , om:Space_55168 , om:Space_52691 , om:Space_57514 , om:Space_46779 , om:Space_32253 , om:Space_53031 , om:Space_53498 , om:Space_85568 , om:Space_28942 , om:Space_38473 , om:Space_41170 , om:Space_34131 , om:Space_86051 , om:Space_27973 , om:Space_35751 , om:Space_38968 , om:Space_38056 , om:Space_45342 , om:Space_46439 , om:Space_34493 , om:Space_87971 , om:Space_45859 , om:Space_39721 , om:Space_57788 , om:Space_47624 , om:Space_50796 , om:Space_26474 , om:Space_58289 , om:Space_87634 , om:Space_30121 , om:Space_40814 , om:Space_59268 , om:Space_32624 , om:Space_35473 , om:Space_26723 , om:Space_50320 , om:Space_44385 , om:Space_52183 , om:Space_25522 , om:Space_42830 , om:Space_39316 , om:Space_50558 , om:Space_88688 , om:Space_54530 , om:Space_50026 , om:Space_55566 , om:Space_37081 , om:Space_26979 , om:Space_44835 , om:Space_27546 , om:Space_42466 , om:Space_56049 , om:Space_53886 , om:Space_28331 , om:Space_60049 , om:Space_26151 , om:Space_56984 , om:Space_58885 , om:Space_51843 , om:Space_58583 , om:Space_30556 , om:Space_49679 , om:Space_29284 , om:Space_88351 , om:Space_47241 , om:Space_49416 , om:Space_51120 , om:Space_35249 , om:Space_56612 , om:Space_40438 , om:Space_43592 ;
+        props:hasCompressedGuid  "2GjH6vjy16N8uHIa3Ccl9c" .
+
+om:Element_95496  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:349645" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTyT" .
+
+om:Element_165882  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:425891" ;
+        bot:hasSubElement        om:Element_288799 , om:Element_280778 , om:Element_166190 ;
+        props:hasCompressedGuid  "3Mkf_TSoPA4Rmf8t2egFJr" .
+
+om:Element_94268  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:349102" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTb_" .
+
+om:Space_10889  a                brick:Space , bot:Space ;
+        rdfs:label               "32" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "17.6710000000009"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjiiJH" .
+
+om:Element_278793  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:517010" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "2M8S0gJpj3yPZqJzdO1m74" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_95432  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:349606" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTzs" .
+
+om:Element_94204  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:349072" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTb0" .
+
+om:Element_93773  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:348889" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTW9" .
+
+om:Element_304542  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:665706" ;
+        bot:hasSubElement        om:Element_304626 ;
+        props:hasCompressedGuid  "05zzZif0DAK9VuNWPLlikS" .
+
+om:Element_285027  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:525503" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrplO" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Space_38056  a                brick:Space , bot:Space ;
+        rdfs:label               "107" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "15.5282763524151"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWaE" .
+
+om:Element_287626  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:528735" ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrouu" .
+
+om:Element_276526  a             beo:Door , bot:Element ;
+        rdfs:label               "door bathroom:door bathroom:512869" ;
+        props:hasArea            "1.4675"^^xsd:double ;
+        props:hasCompressedGuid  "0ch9IuYfz1kwU3Q9uscdks" ;
+        props:hasVolume          "0.0350000000000017"^^xsd:double .
+
+om:Element_285714  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:525975" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrpdm" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_277003  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:513721" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "0ch9IuYfz1kwU3Q9uscdvg" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_282873  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:521908" ;
+        props:hasCompressedGuid  "0Cpr5ZIib5aRWYRgMZopPd" .
+
+om:Space_86051  a                brick:Space , bot:Space ;
+        rdfs:label               "168" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "81.4742761803081"^^xsd:double ;
+        props:hasCompressedGuid  "0jin3tJK1F98a1vkIBEckH" .
+
+om:Element_161647  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:400957" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "34ulVHybrA7vIelXHgLqRF" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_329043  a             beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:711226" ;
+        props:hasCompressedGuid  "13iMtcr_XAfA6bDmUB318l" .
+
+om:Element_248247  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:455957" ;
+        props:hasCompressedGuid  "0p4A5YpS57b9iUXUqcN6z8" .
+
+om:Element_286601  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:527330" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrpI5" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Space_17449  a                brick:Space , bot:Space ;
+        rdfs:label               "53" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "19.2209468780696"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjiiA9" .
+
+om:Element_246801  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:454755" ;
+        bot:hasSubElement        om:Element_305598 ;
+        props:hasCompressedGuid  "0p4A5YpS57b9iUXUqcN6e_" .
+
+om:Space_2896  a                 brick:Space , bot:Space ;
+        rdfs:label               "10" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "8.27946000000001"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7Ejijk8" .
+
+om:Element_283760  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:524684" ;
+        bot:hasSubElement        om:Element_285027 ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrpxh" .
+
+om:Element_260830  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:511203" ;
+        props:hasCompressedGuid  "3TdKq_mN537hxbzsSIg1ap" .
+
+om:Element_258308  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:502704" ;
+        props:hasCompressedGuid  "3Y0Oc$G819RgJuIzPRAxmP" .
+
+om:Element_285640  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:525925" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrpa2" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_329849  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:736707" ;
+        props:hasArea            "2.195"^^xsd:double ;
+        props:hasCompressedGuid  "3ORUmADn9FDQ4Gx4J$puOo" ;
+        props:hasVolume          "0.130000000000003"^^xsd:double .
+
+om:Element_93099  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:348715" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTZx" .
+
+om:Element_161573  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:400860" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "34ulVHybrA7vIelXHgLqKk" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_261205  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:511208" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3TdKq_mN537hxbzsSIg1au" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_93035  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:348680" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTZO" .
+
+om:Space_35473  a                brick:Space , bot:Space ;
+        rdfs:label               "103" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "3.00000000000011"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWWH" .
+
+om:Element_305207  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:666379" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "05zzZif0DAK9VuNWPLliZz" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_92779  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:348539" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTkh" .
+
+om:Element_163176  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:411298" ;
+        props:hasCompressedGuid  "3mt7RMhb12DO8XoPgVRF3X" .
+
+om:Element_278497  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:516738" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3ijYEfeqDFGxfiNo1Aj$I6" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_257038  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:499701" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "16vzN2cW5AIfvApSpYwdty" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Space_594  a                  brick:Space , bot:Space ;
+        rdfs:label               "2" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "1.5680000000001"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7Ejijkc" .
+
+om:Element_91034  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:347931" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcSNB" .
+
+om:Element_245001  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Generic - 200mm:446840" ;
+        props:hasCompressedGuid  "39_kVZd6bAnPzKQvhf51jx" .
+
+om:Element_90778  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:347812" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcSHq" .
+
+om:Space_26474  a                brick:Space , bot:Space ;
+        rdfs:label               "83" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "2.03840000000011"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWDx" .
+
+om:Element_92715  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:348506" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTkA" .
+
+om:Space_46439  a                brick:Space , bot:Space ;
+        rdfs:label               "123" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "18.1799999999998"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWbW" .
+
+om:Element_164340  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:424160" ;
+        bot:hasSubElement        om:Element_330162 ;
+        props:hasCompressedGuid  "0LbdSMP8DEb8sJj7RLTliQ" .
+
+om:Element_329775  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:736428" ;
+        props:hasArea            "2.195"^^xsd:double ;
+        props:hasCompressedGuid  "3ORUmADn9FDQ4Gx4J$puTT" ;
+        props:hasVolume          "0.130000000000003"^^xsd:double .
+
+om:Element_252751  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:491068" ;
+        props:hasCompressedGuid  "3wAqibhLLFjg1AKNIEnNEO" .
+
+om:Element_285418  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:525747" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrphK" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_249060  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:458296" ;
+        bot:hasSubElement        om:Element_283200 ;
+        props:hasCompressedGuid  "0p4A5YpS57b9iUXUqcN6Hb" .
+
+om:Element_90714  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:347770" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcSIg" .
+
+om:Element_261131  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:511206" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3TdKq_mN537hxbzsSIg1as" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_94396  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:349177" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTaf" .
+
+om:Element_305133  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:666303" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "05zzZif0DAK9VuNWPLlib9" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_288968  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:533810" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3O8NzrQbT6LQn_eJ9yBtj5" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:BuildingStorey_154
+        a                        bot:Storey , brick:Floor ;
+        rdfs:label               "8th Floor" ;
+        brick:hasPart            om:Space_1089 , om:Space_69228 , om:Space_594 , om:Space_13545 , om:Space_17449 , om:Space_67526 , om:Space_11262 , om:Space_247 , om:Space_5921 , om:Space_24865 , om:Space_6987 , om:Space_23871 , om:Space_16762 , om:Space_7933 , om:Space_82034 , om:Space_20109 , om:Space_2367 , om:Space_25252 , om:Space_23267 , om:Space_13307 , om:Space_6699 , om:Space_22489 , om:Space_20656 , om:Space_4162 , om:Space_20361 , om:Space_15522 , om:Space_10889 , om:Space_829 , om:Space_6159 , om:Space_3773 , om:Space_24166 , om:Space_14381 , om:Space_21378 , om:Space_1940 , om:Space_2896 , om:Space_9671 , om:Space_16286 , om:Space_5014 , om:Space_22860 , om:Space_71344 , om:Space_15760 , om:Space_16048 , om:Space_79979 , om:Space_22194 , om:Space_10501 , om:Space_6447 , om:Space_12106 , om:Space_17065 , om:Space_7578 , om:Space_5644 , om:Space_85155 , om:Space_70085 , om:Space_23619 , om:Space_2644 , om:Space_13812 , om:Space_73703 , om:Space_8795 , om:Space_78597 , om:Space_18075 , om:Space_1671 , om:Space_19397 , om:Space_12950 , om:Space_75061 , om:Space_19806 , om:Space_9198 , om:Space_15245 , om:Space_24470 , om:Space_17808 , om:Space_18524 , om:Space_21097 , om:Space_1355 , om:Space_3203 , om:Space_12639 , om:Space_4515 , om:Space_19078 , om:Space_21823 , om:Space_7299 , om:Space_16510 ;
+        brick:isPartOf           om:Building_141 ;
+        bot:containsElement      om:Element_94751 , om:Element_260171 , om:Element_258688 , om:Element_276260 , om:Element_162030 , om:Element_261480 , om:Element_330472 , om:Element_96264 , om:Element_164710 , om:Element_96910 , om:Element_245094 , om:Element_90487 , om:Element_94675 , om:Element_164038 , om:Element_260718 , om:Element_89911 , om:Element_281794 , om:Element_245373 , om:Element_276070 , om:Element_245466 , om:Element_166106 , om:Element_93482 , om:Element_165290 , om:Element_276372 , om:Element_90714 , om:Element_245280 , om:Element_252867 , om:Element_165054 , om:Element_243976 , om:Element_165994 , om:Element_253327 , om:Element_281889 , om:Element_280694 , om:Element_253099 , om:Element_281289 , om:Element_244164 , om:Element_160194 , om:Element_160908 , om:Element_89556 , om:Element_164938 , om:Element_95816 , om:Element_261047 , om:Element_165402 , om:Element_277425 , om:Element_95688 , om:Element_162238 , om:Element_165514 , om:Element_89364 , om:Element_163943 , om:Element_253215 , om:Element_254383 , om:Element_252635 , om:Element_96008 , om:Element_244443 , om:Element_279267 , om:Element_281177 , om:Element_96392 , om:Element_260285 , om:Element_243881 , om:Element_94524 , om:Element_93686 , om:Element_93849 , om:Element_329122 , om:Element_244815 , om:Element_96846 , om:Element_244071 , om:Element_96683 , om:Element_260830 , om:Element_329691 , om:Element_253679 , om:Element_89719 , om:Element_89151 , om:Element_245652 , om:Element_279155 , om:Element_258403 , om:Element_94140 , om:Element_90970 , om:Element_277826 , om:Element_329043 , om:Element_260952 , om:Element_244722 , om:Element_94268 , om:Element_256612 , om:Element_90103 , om:Element_165170 , om:Element_90842 , om:Element_92168 , om:Element_281403 , om:Element_258308 , om:Element_167250 , om:Element_245187 , om:Element_96770 , om:Element_89643 , om:Element_163288 , om:Element_91635 , om:Element_160682 , om:Element_92232 , om:Element_164340 , om:Element_291071 , om:Element_92040 , om:Element_93099 , om:Element_95944 , om:Element_94076 , om:Element_290807 , om:Element_254033 , om:Element_90650 , om:Element_162716 , om:Element_254271 , om:Element_245559 , om:Element_90778 , om:Element_94204 , om:Element_92523 , om:Element_89492 , om:Element_244629 , om:Element_261385 , om:Element_95077 , om:Element_96136 , om:Element_329501 , om:Element_160456 , om:Element_254643 , om:Element_162356 , om:Element_161823 , om:Element_166294 , om:Element_96974 , om:Element_91034 , om:Element_89975 , om:Element_165648 , om:Element_95496 , om:Element_243786 , om:Element_276165 , om:Element_261575 , om:Element_92715 , om:Element_89847 , om:Element_258098 , om:Element_95368 , om:Element_95164 , om:Element_89428 , om:Element_94396 , om:Element_277594 , om:Element_96072 , om:Element_256954 , om:Element_252751 , om:Element_244536 , om:Element_261290 , om:Element_277921 , om:Element_92907 , om:Element_96200 , om:Element_275901 , om:Element_291166 , om:Element_258208 , om:Element_160796 , om:Element_164226 , om:Element_90423 , om:Element_269116 , om:Element_258498 , om:Element_106932 , om:Element_91912 , om:Element_92651 , om:Element_90231 , om:Element_96328 , om:Element_93035 , om:Element_280358 , om:Element_279493 , om:Element_92360 , om:Element_279617 , om:Element_167086 , om:Element_256842 , om:Element_94460 , om:Element_277710 , om:Element_162604 , om:Element_165882 , om:Element_106833 , om:Element_162832 , om:Element_93558 , om:Element_253565 , om:Element_94332 , om:Element_163402 , om:Element_252985 , om:Element_330674 , om:Element_165760 , om:Element_260623 , om:Element_94588 , om:Element_244908 , om:Element_261818 , om:Element_91737 , om:Element_259981 , om:Element_329406 , om:Element_292754 , om:Element_164468 , om:Element_329294 , om:Element_160568 , om:Element_90167 , om:Element_95624 , om:Element_163176 , om:Element_290902 , om:Element_162484 , om:Element_281984 , om:Element_92296 , om:Element_95432 , om:Element_161935 , om:Element_89300 , om:Element_90906 , om:Element_92971 , om:Element_243689 , om:Element_280863 , om:Element_276697 , om:Element_260076 , om:Element_244257 , om:Element_96555 , om:Element_280147 , om:Element_95304 , om:Element_245001 , om:Element_93773 , om:Element_92843 , om:Element_244350 , om:Element_95240 , om:Element_91558 , om:Element_256726 , om:Element_96479 , om:Element_90039 , om:Element_163060 , om:Element_253797 , om:Element_90359 , om:Element_94815 , om:Element_94902 , om:Element_253439 , om:Element_92587 , om:Element_280263 , om:Element_254157 , om:Element_161022 , om:Element_162948 , om:Element_280987 , om:Element_91836 , om:Element_93163 , om:Element_92779 , om:Element_90574 , om:Element_93913 , om:Element_89783 , om:Element_95001 , om:Element_93622 , om:Element_330306 , om:Element_258003 , om:Element_92447 , om:Element_253915 , om:Element_95880 , om:Element_328979 , om:Element_94000 , om:Element_281082 , om:Element_91976 , om:Element_90295 , om:Element_95752 , om:Element_164822 , om:Element_330573 , om:Element_329596 , om:Element_279379 , om:Element_97038 , om:Element_95560 , om:Element_260380 , om:Element_92104 , om:Element_258593 , om:Element_161142 , om:Element_280031 , om:Element_96619 , om:Element_164596 ;
+        bot:hasSpace             om:Space_3203 , om:Space_19078 , om:Space_2644 , om:Space_1089 , om:Space_12950 , om:Space_17449 , om:Space_67526 , om:Space_17065 , om:Space_1940 , om:Space_5644 , om:Space_16048 , om:Space_15522 , om:Space_829 , om:Space_79979 , om:Space_9671 , om:Space_13545 , om:Space_5921 , om:Space_7933 , om:Space_18524 , om:Space_21378 , om:Space_19397 , om:Space_20109 , om:Space_24865 , om:Space_20656 , om:Space_21097 , om:Space_75061 , om:Space_7578 , om:Space_16762 , om:Space_23871 , om:Space_9198 , om:Space_15760 , om:Space_3773 , om:Space_25252 , om:Space_13307 , om:Space_6159 , om:Space_594 , om:Space_20361 , om:Space_16286 , om:Space_7299 , om:Space_4162 , om:Space_24166 , om:Space_22489 , om:Space_22194 , om:Space_1671 , om:Space_19806 , om:Space_1355 , om:Space_21823 , om:Space_22860 , om:Space_73703 , om:Space_16510 , om:Space_2367 , om:Space_6447 , om:Space_247 , om:Space_12106 , om:Space_11262 , om:Space_13812 , om:Space_69228 , om:Space_24470 , om:Space_17808 , om:Space_85155 , om:Space_82034 , om:Space_15245 , om:Space_70085 , om:Space_8795 , om:Space_12639 , om:Space_18075 , om:Space_10501 , om:Space_14381 , om:Space_6699 , om:Space_71344 , om:Space_78597 , om:Space_6987 , om:Space_23267 , om:Space_23619 , om:Space_4515 , om:Space_2896 , om:Space_10889 , om:Space_5014 ;
+        props:hasCompressedGuid  "2GjH6vjy16N8uHIa3Ccl7d" .
+
+om:Element_288715  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:531875" ;
+        props:hasCompressedGuid  "0JLpf7M$LDUfFLMj5lnV5X" .
+
+om:Element_94332  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:349154" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTao" .
+
+om:Element_95560  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:349705" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTpP" .
+
+om:Space_1940  a                 brick:Space , bot:Space ;
+        rdfs:label               "7" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "16.9382179474781"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7Ejijko" .
+
+om:Element_165402  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:425068" ;
+        props:hasCompressedGuid  "3Mkf_TSoPA4Rmf8t2egFSw" .
+
+om:Element_305820  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:667089" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "05zzZif0DAK9VuNWPLliud" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_290416  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:535676" ;
+        props:hasCompressedGuid  "3O8NzrQbT6LQn_eJ9yBt8B" .
+
+om:Element_287288  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:528468" ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHroyp" .
+
+om:Space_41170  a                brick:Space , bot:Space ;
+        rdfs:label               "114" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "19.0525626769943"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWaS" .
+
+om:Element_162238  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:410628" ;
+        props:hasCompressedGuid  "3mt7RMhb12DO8XoPgVRF97" .
+
+om:Element_289634  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:534444" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3O8NzrQbT6LQn_eJ9yBtdR" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_285344  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:525723" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrphy" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Space_5921  a                 brick:Space , bot:Space ;
+        rdfs:label               "19" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "2.38000000000009"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjiiLy" .
+
+om:Element_248606  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:456301" ;
+        props:hasCompressedGuid  "0p4A5YpS57b9iUXUqcN6mm" .
+
+om:Element_256399  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:498797" ;
+        props:hasCompressedGuid  "16vzN2cW5AIfvApSpYwdva" .
+
+om:Space_17808  a                brick:Space , bot:Space ;
+        rdfs:label               "54" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "19.6662399640454"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjiiAB" .
+
+om:Element_254907  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:496058" ;
+        bot:hasSubElement        om:Element_255839 , om:Element_255765 , om:Element_255561 ;
+        props:hasCompressedGuid  "3RIkctSZb37ecUHpOZZ6Nf" .
+
+om:Element_256612  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:499309" ;
+        props:hasCompressedGuid  "16vzN2cW5AIfvApSpYwdna" .
+
+om:Element_163402  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:411422" ;
+        props:hasCompressedGuid  "3mt7RMhb12DO8XoPgVRF5T" .
+
+om:Space_5644  a                 brick:Space , bot:Space ;
+        rdfs:label               "18" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "6.50618091250065"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjiiLY" .
+
+om:Element_250410  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:459489" ;
+        props:hasCompressedGuid  "35cQTx6gLCyff6NHvYym6p" .
+
+om:Element_256114  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:497885" ;
+        props:hasCompressedGuid  "16vzN2cW5AIfvApSpYwdhK" .
+
+om:Element_280987  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:519303" ;
+        bot:hasSubElement        om:Element_281709 , om:Element_281635 , om:Element_281561 , om:Element_281487 ;
+        props:hasCompressedGuid  "2M8S0gJpj3yPZqJzdO1mxH" .
+
+om:Space_85568  a                brick:Space , bot:Space ;
+        rdfs:label               "167" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "14.4"^^xsd:double ;
+        props:hasCompressedGuid  "2seEORS0z4pO84b$1vzagM" .
+
+om:Space_34493  a                brick:Space , bot:Space ;
+        rdfs:label               "99" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "1.41549999999995"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWWP" .
+
+om:Element_252985  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:491162" ;
+        props:hasCompressedGuid  "3wAqibhLLFjg1AKNIEnNC_" .
+
+om:Space_9671  a                 brick:Space , bot:Space ;
+        rdfs:label               "30" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "141.297499999997"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjiiJL" .
+
+om:Element_289560  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:534386" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3O8NzrQbT6LQn_eJ9yBta5" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_285270  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:525641" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrpek" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_255097  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:496134" ;
+        bot:hasSubElement        om:Element_287372 ;
+        props:hasCompressedGuid  "3RIkctSZb37ecUHpOZZ6PL" .
+
+om:Element_164938  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:424850" ;
+        props:hasCompressedGuid  "3Mkf_TSoPA4Rmf8t2egF34" .
+
+om:Element_247350  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:455393" ;
+        bot:hasSubElement        om:Element_282376 ;
+        props:hasCompressedGuid  "0p4A5YpS57b9iUXUqcN6Yy" .
+
+om:Element_93163  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:348739" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTYJ" .
+
+om:Element_106833  a             beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:356071" ;
+        props:hasCompressedGuid  "3amTZpEbL61egRDVbIhlXR" .
+
+om:Element_282968  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:521986" ;
+        bot:hasSubElement        om:Element_304700 ;
+        props:hasCompressedGuid  "0Cpr5ZIib5aRWYRgMZopVH" .
+
+om:Element_305524  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:666817" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "05zzZif0DAK9VuNWPLliyt" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_92843  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:348582" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTjs" .
+
+om:Space_24865  a                brick:Space , bot:Space ;
+        rdfs:label               "75" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "18.8696341932285"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmW7A" .
+
+om:Element_285799  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:526161" ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrpWs" .
+
+om:Element_255696  a             beo:Door , bot:Element ;
+        rdfs:label               "door bathroom:door bathroom:496513" ;
+        props:hasArea            "1.4675"^^xsd:double ;
+        props:hasCompressedGuid  "1pamL1Jf50oeVEtBlCB6OO" ;
+        props:hasVolume          "0.0350000000000017"^^xsd:double .
+
+om:Element_91836  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:348088" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcSLe" .
+
+om:Element_289338  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:534122" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3O8NzrQbT6LQn_eJ9yBtWT" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_290807  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:536883" ;
+        props:hasCompressedGuid  "1CbI3kjGj3Qh7pftv31nck" .
+
+om:Element_90842  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:347839" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcSHl" .
+
+om:Space_13545  a                brick:Space , bot:Space ;
+        rdfs:label               "38" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "8.22906000000011"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjiiGb" .
+
+om:Element_283855  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:524753" ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrpws" .
+
+om:Element_258772  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:502904" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3Y0Oc$G819RgJuIzPRAxlH" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Space_55168  a                brick:Space , bot:Space ;
+        rdfs:label               "142" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "12.4561740094777"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWb6" .
+
+om:Element_255839  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:496639" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "1pamL1Jf50oeVEtBlCB6Pc" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Space_42466  a                brick:Space , bot:Space ;
+        rdfs:label               "116" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "14.5965797712696"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWaG" .
+
+om:Space_33025  a                brick:Space , bot:Space ;
+        rdfs:label               "97" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "33.9765193939242"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWW3" .
+
+om:Element_261480  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:511212" ;
+        props:hasCompressedGuid  "3TdKq_mN537hxbzsSIg1ay" .
+
+om:Element_276372  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:512526" ;
+        bot:hasSubElement        om:Element_276526 ;
+        props:hasCompressedGuid  "0ch9IuYfz1kwU3Q9uscdhT" .
+
+om:Element_94460  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:349203" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTx3" .
+
+om:Element_280263  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:518486" ;
+        props:hasCompressedGuid  "2M8S0gJpj3yPZqJzdO1mi0" .
+
+om:Element_89783  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:347245" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcSQz" .
+
+om:Space_50558  a                brick:Space , bot:Space ;
+        rdfs:label               "132" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "1.70999999999999"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWbo" .
+
+om:Element_305450  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:666791" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "05zzZif0DAK9VuNWPLlizH" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Space_247  a                  brick:Space , bot:Space ;
+        rdfs:label               "1" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "3.49440000000016"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7Ejijka" .
+
+om:Element_256726  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:499347" ;
+        bot:hasSubElement        om:Element_280590 ;
+        props:hasCompressedGuid  "16vzN2cW5AIfvApSpYwdoQ" .
+
+om:Element_93849  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:348918" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTWc" .
+
+om:Space_32253  a                brick:Space , bot:Space ;
+        rdfs:label               "95" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "11.0007"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWD3" .
+
+om:Element_162832  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:411077" ;
+        props:hasCompressedGuid  "3mt7RMhb12DO8XoPgVRFE6" .
+
+om:Element_290986  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:537224" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "1CbI3kjGj3Qh7pftv31neL" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_89428  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:347082" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcS4Q" .
+
+om:Element_289264  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:534084" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3O8NzrQbT6LQn_eJ9yBtWp" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_284710  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:525340" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrpjx" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_247086  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:454957" ;
+        bot:hasSubElement        om:Element_306137 ;
+        props:hasCompressedGuid  "0p4A5YpS57b9iUXUqcN6jm" .
+
+om:Element_279379  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:517830" ;
+        props:hasCompressedGuid  "2M8S0gJpj3yPZqJzdO1mIG" .
+
+om:Element_255765  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:496577" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "1pamL1Jf50oeVEtBlCB6PO" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_289951  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:535122" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3O8NzrQbT6LQn_eJ9yBtGb" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Building_141  a               brick:Building , bot:Building ;
+        rdfs:label               "" ;
+        brick:hasPart            om:BuildingStorey_160 , om:BuildingStorey_154 ;
+        bot:hasStorey            om:BuildingStorey_160 , om:BuildingStorey_154 ;
+        props:hasCompressedGuid  "2GjH6vjy16N8uHIa0pPGyX" .
+
+om:Space_28331  a                brick:Space , bot:Space ;
+        rdfs:label               "88" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "14.7975000000002"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWDr" .
+
+om:Space_12639  a                brick:Space , bot:Space ;
+        rdfs:label               "35" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "17.0999999999994"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjiiGl" .
+
+om:Element_288050  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:530617" ;
+        props:hasCompressedGuid  "0JLpf7M$LDUfFLMj5lnVHx" .
+
+om:Space_70085  a                brick:Space , bot:Space ;
+        rdfs:label               "159" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "85.0475425355531"^^xsd:double ;
+        props:hasCompressedGuid  "3pqrQ01Mv7GeaMdhQD1IZx" .
+
+om:Space_21097  a                brick:Space , bot:Space ;
+        rdfs:label               "64" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "11.8947110773049"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmW7a" .
+
+om:Element_249155  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:458364" ;
+        props:hasCompressedGuid  "0p4A5YpS57b9iUXUqcN6GX" .
+
+om:Element_260076  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:509863" ;
+        props:hasCompressedGuid  "3TdKq_mN537hxbzsSIg19t" .
+
+om:Element_253797  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:491414" ;
+        bot:hasSubElement        om:Element_276456 ;
+        props:hasCompressedGuid  "3wAqibhLLFjg1AKNIEnN8o" .
+
+om:Space_1671  a                 brick:Space , bot:Space ;
+        rdfs:label               "6" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "17.140717947478"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7Ejijkm" .
+
+om:Element_258098  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:502397" ;
+        bot:hasSubElement        om:Element_291324 ;
+        props:hasCompressedGuid  "3NbD7zBF58uutiWZNqxEKq" .
+
+om:Element_247962  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:455695" ;
+        props:hasCompressedGuid  "0p4A5YpS57b9iUXUqcN6vI" .
+
+om:Space_26979  a                brick:Space , bot:Space ;
+        rdfs:label               "85" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "8.90999999999833"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWD$" .
+
+om:Element_282212  a             beo:Door , bot:Element ;
+        rdfs:label               "door bathroom:door bathroom:520895" ;
+        props:hasArea            "1.4675"^^xsd:double ;
+        props:hasCompressedGuid  "2TDMdm0iH0gRGTlH$ALQea" ;
+        props:hasVolume          "0.0350000000000017"^^xsd:double .
+
+om:Element_289190  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:534002" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3O8NzrQbT6LQn_eJ9yBtk5" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_161285  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:400482" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "34ulVHybrA7vIelXHgLqIG" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_259981  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:509693" ;
+        bot:hasSubElement        om:Element_161647 , om:Element_161573 , om:Element_161499 ;
+        props:hasCompressedGuid  "3TdKq_mN537hxbzsSIg1Cj" .
+
+om:Element_260952  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:511204" ;
+        props:hasCompressedGuid  "3TdKq_mN537hxbzsSIg1aq" .
+
+om:Element_164038  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Generic - 200mm:423986" ;
+        bot:hasSubElement        om:Element_330071 , om:Element_278268 ;
+        props:hasCompressedGuid  "0LbdSMP8DEb8sJj7RLTll8" .
+
+om:Element_255382  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:496305" ;
+        props:hasCompressedGuid  "3RIkctSZb37ecUHpOZZ6RY" .
+
+om:Space_22860  a                brick:Space , bot:Space ;
+        rdfs:label               "69" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "4.44000000000007"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmW7_" .
+
+om:Space_47624  a                brick:Space , bot:Space ;
+        rdfs:label               "126" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "21.2175000000005"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWbc" .
+
+om:Space_58051  a                brick:Space , bot:Space ;
+        rdfs:label               "150" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "1.80000000000002"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWci" .
+
+om:Element_250758  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:459837" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "35cQTx6gLCyff6NHvYymTl" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_250039  a             beo:Door , bot:Element ;
+        rdfs:label               "door bathroom:door bathroom:459228" ;
+        props:hasArea            "1.4675"^^xsd:double ;
+        props:hasCompressedGuid  "35cQTx6gLCyff6NHvYymAE" ;
+        props:hasVolume          "0.0350000000000017"^^xsd:double .
+
+om:Element_250505  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:459586" ;
+        bot:hasSubElement        om:Element_250684 ;
+        props:hasCompressedGuid  "35cQTx6gLCyff6NHvYym0G" .
+
+om:Element_92971  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:348642" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTio" .
+
+om:Element_245187  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Generic - 200mm:446952" ;
+        props:hasCompressedGuid  "39_kVZd6bAnPzKQvhf51lh" .
+
+om:Element_256209  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:498733" ;
+        props:hasCompressedGuid  "16vzN2cW5AIfvApSpYwdua" .
+
+om:Space_16048  a                brick:Space , bot:Space ;
+        rdfs:label               "48" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "1.71"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjiiAr" .
+
+om:Element_259142  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:503185" ;
+        bot:hasSubElement        om:Element_259606 ;
+        props:hasCompressedGuid  "0gCmn8wtzE2gdjYhsOH6mR" .
+
+om:Space_23267  a                brick:Space , bot:Space ;
+        rdfs:label               "70" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "9.98780423998521"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmW7m" .
+
+om:Element_282068  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:520496" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "2M8S0gJpj3yPZqJzdO1nDc" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_90970  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:347898" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcSGg" .
+
+om:Element_284414  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:525122" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrpmb" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_330472  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal stairwall 1000 mm:761617" ;
+        props:hasCompressedGuid  "3uw6PHZIbDkgciRB$qUIBb" .
+
+om:Element_287775  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:530330" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "0JLpf7M$LDUfFLMj5lnVjO" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_260380  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:509866" ;
+        bot:hasSubElement        om:Element_260538 , om:Element_260464 ;
+        props:hasCompressedGuid  "3TdKq_mN537hxbzsSIg19w" .
+
+om:Element_94076  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:349009" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTc1" .
+
+om:Element_304880  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:665997" ;
+        bot:hasSubElement        om:Element_304964 ;
+        props:hasCompressedGuid  "05zzZif0DAK9VuNWPLlifx" .
+
+om:Element_287024  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:527949" ;
+        bot:hasSubElement        om:Element_287203 ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrp4g" .
+
+om:Space_49416  a                brick:Space , bot:Space ;
+        rdfs:label               "128" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "1.8"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWbw" .
+
+om:Element_283200  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:522394" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3AO3djHrzATeqIdAza1kS7" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_281794  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:520106" ;
+        props:hasCompressedGuid  "2M8S0gJpj3yPZqJzdO1mty" .
+
+om:Element_160568  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:397746" ;
+        props:hasCompressedGuid  "34ulVHybrA7vIelXHgLqb0" .
+
+om:Element_247445  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:455440" ;
+        props:hasCompressedGuid  "0p4A5YpS57b9iUXUqcN6bD" .
+
+om:Element_95240  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:349525" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcT_5" .
+
+om:Element_277594  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:516298" ;
+        bot:hasSubElement        om:Element_278079 ;
+        props:hasCompressedGuid  "3ijYEfeqDFGxfiNo1Aj$RE" .
+
+om:Element_250684  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:459783" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "35cQTx6gLCyff6NHvYymTL" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_291324  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:537552" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "1CbI3kjGj3Qh7pftv31njD" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_302613  a             beo:Door , bot:Element ;
+        rdfs:label               "Access Door:Access Door:659639" ;
+        props:hasArea            "4.1"^^xsd:double ;
+        props:hasCompressedGuid  "2muN5J9Kn7lfrSYIlzvsnl" ;
+        props:hasVolume          "0.1"^^xsd:double .
+
+om:Element_89556  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:347140" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcSRK" .
+
+om:Element_330306  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal stairwall 1000 mm:760532" ;
+        props:hasCompressedGuid  "0ctidifHz8y8LKraynFEMV" .
+
+om:Space_18075  a                brick:Space , bot:Space ;
+        rdfs:label               "55" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "19.2209468780696"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjiiA5" .
+
+om:Space_25792  a                brick:Space , bot:Space ;
+        rdfs:label               "81" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "9.12625802902497"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWDd" .
+
+om:Space_47241  a                brick:Space , bot:Space ;
+        rdfs:label               "125" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "11.1026999999997"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWba" .
+
+om:Element_94675  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:349299" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTwZ" .
+
+om:Element_330573  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal stairwall 1000 mm:761664" ;
+        props:hasCompressedGuid  "3uw6PHZIbDkgciRB$qUIAq" .
+
+om:Element_93913  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:348946" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTd2" .
+
+om:Element_96555  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:350140" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTri" .
+
+om:Element_243786  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Generic - 200mm:444843" ;
+        props:hasCompressedGuid  "3VYzeg_M52j9blEdZdd33J" .
+
+om:Element_248521  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:456173" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "0p4A5YpS57b9iUXUqcN6_m" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Space_30556  a                brick:Space , bot:Space ;
+        rdfs:label               "92" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "8.54549999999839"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWDD" .
+
+om:Element_291250  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:537514" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "1CbI3kjGj3Qh7pftv31nit" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_304626  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:665754" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "05zzZif0DAK9VuNWPLliji" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_261575  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:511213" ;
+        bot:hasSubElement        om:Element_275985 , om:Element_261733 , om:Element_261659 ;
+        props:hasCompressedGuid  "3TdKq_mN537hxbzsSIg1az" .
+
+om:Element_276260  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:512266" ;
+        props:hasCompressedGuid  "3TdKq_mN537hxbzsSIg0JQ" .
+
+om:Space_16762  a                brick:Space , bot:Space ;
+        rdfs:label               "51" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "4.40000000000004"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjiiAp" .
+
+om:Element_280358  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:518487" ;
+        props:hasCompressedGuid  "2M8S0gJpj3yPZqJzdO1mi1" .
+
+om:Element_249440  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:458527" ;
+        props:hasCompressedGuid  "0p4A5YpS57b9iUXUqcN6L2" .
+
+om:Space_41891  a                brick:Space , bot:Space ;
+        rdfs:label               "115" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "37.0653632457955"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWaU" .
+
+om:Element_284869  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:525452" ;
+        bot:hasSubElement        om:Element_284953 ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrplh" .
+
+om:Space_52183  a                brick:Space , bot:Space ;
+        rdfs:label               "136" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "17.7502795014769"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWbA" .
+
+om:Element_330674  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal stairwall 1000 mm:762153" ;
+        props:hasCompressedGuid  "3uw6PHZIbDkgciRB$qUHpT" .
+
+om:Element_286749  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:527427" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrpCa" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_257123  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:499781" ;
+        props:hasCompressedGuid  "2wZuWyYKL2Q9bXfFmEnjmB" .
+
+om:Element_92587  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:348445" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTlD" .
+
+om:Element_245094  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Generic - 200mm:446897" ;
+        props:hasCompressedGuid  "39_kVZd6bAnPzKQvhf51ko" .
+
+om:Element_279267  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:517717" ;
+        props:hasCompressedGuid  "2M8S0gJpj3yPZqJzdO1mG3" .
+
+om:Space_45342  a                brick:Space , bot:Space ;
+        rdfs:label               "121" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "14.9475"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWbi" .
+
+om:Element_288145  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:530710" ;
+        props:hasCompressedGuid  "0JLpf7M$LDUfFLMj5lnVNK" .
+
+om:Space_53498  a                brick:Space , bot:Space ;
+        rdfs:label               "139" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "23.0048865002322"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWb0" .
+
+om:Element_92523  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:348423" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTlN" .
+
+om:Element_280031  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:518484" ;
+        bot:hasSubElement        om:Element_280442 ;
+        props:hasCompressedGuid  "2M8S0gJpj3yPZqJzdO1mi2" .
+
+om:Element_279701  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:518143" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "2M8S0gJpj3yPZqJzdO1mMf" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_277266  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:514113" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "0ch9IuYfz1kwU3Q9uscd2I" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_282630  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:521354" ;
+        props:hasCompressedGuid  "2TDMdm0iH0gRGTlH$ALQmH" .
+
+om:Space_71344  a                brick:Space , bot:Space ;
+        rdfs:label               "160" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "136.062944528801"^^xsd:double ;
+        props:hasCompressedGuid  "3pqrQ01Mv7GeaMdhQD1IY1" .
+
+om:Element_286675  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:527375" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrpDe" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_286422  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:526996" ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrpNp" .
+
+om:Element_91737  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:348052" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcSL4" .
+
+om:Element_277921  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:516301" ;
+        props:hasCompressedGuid  "3ijYEfeqDFGxfiNo1Aj$R9" .
+
+om:Element_280694  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:518988" ;
+        props:hasCompressedGuid  "2M8S0gJpj3yPZqJzdO1maQ" .
+
+om:Element_95077  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:349464" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcT$8" .
+
+om:Element_254383  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:492402" ;
+        bot:hasSubElement        om:Element_254467 ;
+        props:hasCompressedGuid  "3wAqibhLLFjg1AKNIEnOxM" .
+
+om:Element_290722  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:536001" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3O8NzrQbT6LQn_eJ9yBtEs" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_94140  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:349033" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTcv" .
+
+om:Element_278153  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:516532" ;
+        props:hasArea            "2.195"^^xsd:double ;
+        props:hasCompressedGuid  "3ijYEfeqDFGxfiNo1Aj$Um" ;
+        props:hasVolume          "0.130000000000003"^^xsd:double .
+
+om:Element_275985  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:511895" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3TdKq_mN537hxbzsSIg1f7" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Space_88351  a                brick:Space , bot:Space ;
+        rdfs:label               "171" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "5.63750000000174"^^xsd:double ;
+        props:hasCompressedGuid  "0jin3tJK1F98a1vkIBEcfW" .
+
+om:Element_252867  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:491134" ;
+        bot:hasSubElement        om:Element_254727 ;
+        props:hasCompressedGuid  "3wAqibhLLFjg1AKNIEnNFQ" .
+
+om:Element_245559  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Generic - 200mm:447218" ;
+        props:hasCompressedGuid  "39_kVZd6bAnPzKQvhf51Zn" .
+
+om:Space_22489  a                brick:Space , bot:Space ;
+        rdfs:label               "68" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "14.0474999999999"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmW7y" .
+
+om:Element_253099  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:491199" ;
+        props:hasCompressedGuid  "3wAqibhLLFjg1AKNIEnNCR" .
+
+om:Element_255477  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:496334" ;
+        props:hasCompressedGuid  "3RIkctSZb37ecUHpOZZ6QT" .
+
+om:Element_253565  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:491335" ;
+        props:hasCompressedGuid  "3wAqibhLLFjg1AKNIEnNBZ" .
+
+om:Element_96683  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:350203" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTqh" .
+
+om:Element_259237  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:503215" ;
+        props:hasCompressedGuid  "0gCmn8wtzE2gdjYhsOH6mb" .
+
+om:Space_85155  a                brick:Space , bot:Space ;
+        rdfs:label               "166" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "44.2024256468615"^^xsd:double ;
+        props:hasCompressedGuid  "2RDzS$xu13Nfde4pPmxuZL" .
+
+om:Element_329122  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:729182" ;
+        props:hasCompressedGuid  "00QZJSR51DP8_wgvwoVBIe" .
+
+om:Element_96328  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:350040" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTs8" .
+
+om:Element_329596  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:730081" ;
+        props:hasCompressedGuid  "00QZJSR51DP8_wgvwoVBSN" .
+
+om:Element_166294  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:426444" ;
+        props:hasCompressedGuid  "301HO1qTj3Kx2kRGZ6OXwP" .
+
+om:Element_276595  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:513034" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "0ch9IuYfz1kwU3Q9uscdpP" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_287119  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:528036" ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrp73" .
+
+om:Space_22194  a                brick:Space , bot:Space ;
+        rdfs:label               "67" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "16.625"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmW7w" .
+
+om:Space_56612  a                brick:Space , bot:Space ;
+        rdfs:label               "145" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "14.4749999999997"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWbS" .
+
+om:Element_244257  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Generic - 200mm:445793" ;
+        props:hasCompressedGuid  "3VYzeg_M52j9blEdZdd3GP" .
+
+om:Element_160908  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:398169" ;
+        props:hasCompressedGuid  "34ulVHybrA7vIelXHgLqkh" .
+
+om:Element_281889  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:520179" ;
+        props:hasCompressedGuid  "2M8S0gJpj3yPZqJzdO1msb" .
+
+om:Space_73703  a                brick:Space , bot:Space ;
+        rdfs:label               "161" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "178.081379920126"^^xsd:double ;
+        props:hasCompressedGuid  "3pqrQ01Mv7GeaMdhQD1Ifa" .
+
+om:Element_160456  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:397505" ;
+        props:hasCompressedGuid  "34ulVHybrA7vIelXHgLqWp" .
+
+om:Space_87634  a                brick:Space , bot:Space ;
+        rdfs:label               "169" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "5.63750000000184"^^xsd:double ;
+        props:hasCompressedGuid  "0jin3tJK1F98a1vkIBEcfa" .
+
+om:Element_283285  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:524116" ;
+        bot:hasSubElement        om:Element_285714 , om:Element_285492 , om:Element_285566 , om:Element_285640 , om:Element_284710 , om:Element_284636 , om:Element_284488 , om:Element_284562 , om:Element_284414 , om:Element_284784 ;
+        props:hasCompressedGuid  "2LQ0rcUwjCZBgWzunqjvvu" .
+
+om:Element_257693  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:501418" ;
+        bot:hasSubElement        om:Element_289951 , om:Element_289877 , om:Element_289803 ;
+        props:hasCompressedGuid  "3NbD7zBF58uutiWZNqxEdZ" .
+
+om:Space_29284  a                brick:Space , bot:Space ;
+        rdfs:label               "90" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "27.3975"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWD9" .
+
+om:Element_92651  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:348473" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTlf" .
+
+om:Element_255924  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:497746" ;
+        props:hasCompressedGuid  "16vzN2cW5AIfvApSpYwdfR" .
+
+om:Element_282292  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:521009" ;
+        bot:hasSubElement        om:Element_282450 ;
+        props:hasCompressedGuid  "2TDMdm0iH0gRGTlH$ALQkg" .
+
+om:Space_13307  a                brick:Space , bot:Space ;
+        rdfs:label               "37" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "17.0999999999995"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjiiGh" .
+
+om:Element_285101  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:525551" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrpk8" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_278719  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:516946" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "2M8S0gJpj3yPZqJzdO1m44" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_90359  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:347527" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcSTN" .
+
+om:Space_40814  a                brick:Space , bot:Space ;
+        rdfs:label               "113" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "9.9032763524148"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWaQ" .
+
+om:Element_90650  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:347746" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcSIo" .
+
+om:Element_288430  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:531013" ;
+        props:hasCompressedGuid  "0JLpf7M$LDUfFLMj5lnVQ7" .
+
+om:Space_60049  a                brick:Space , bot:Space ;
+        rdfs:label               "156" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "579.303876349156"^^xsd:double ;
+        props:hasCompressedGuid  "3pqrQ01Mv7GeaMdhQD1Ioj" .
+
+om:Element_284140  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:524906" ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrpqD" .
+
+om:Element_167250  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Generic - 200mm:434676" ;
+        bot:hasSubElement        om:Element_329849 , om:Element_277183 ;
+        props:hasCompressedGuid  "1BtBcznl1AvwKZJQMUJo00" .
+
+om:Element_290131  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:535314" ;
+        bot:hasSubElement        om:Element_290722 ;
+        props:hasCompressedGuid  "3O8NzrQbT6LQn_eJ9yBtLb" .
+
+om:Element_249535  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:458567" ;
+        props:hasCompressedGuid  "0p4A5YpS57b9iUXUqcN6KQ" .
+
+om:Element_161721  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:406023" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "2br6Msl8bFw9aWJg1twGFv" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Space_51120  a                brick:Space , bot:Space ;
+        rdfs:label               "134" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "17.8047333920843"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWbs" .
+
+om:Space_38968  a                brick:Space , bot:Space ;
+        rdfs:label               "109" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "5.37500000000009"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWa2" .
+
+om:Space_58583  a                brick:Space , bot:Space ;
+        rdfs:label               "152" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "4.06999999999998"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWcW" .
+
+om:Element_245466  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Generic - 200mm:447164" ;
+        props:hasCompressedGuid  "39_kVZd6bAnPzKQvhf51Y$" .
+
+om:Element_253679  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:491367" ;
+        props:hasCompressedGuid  "3wAqibhLLFjg1AKNIEnNB3" .
+
+om:Element_257218  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:499813" ;
+        bot:hasSubElement        om:Element_287775 ;
+        props:hasCompressedGuid  "2wZuWyYKL2Q9bXfFmEnjmh" .
+
+om:Element_93482  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:348770" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTYo" .
+
+om:Element_163577  a             beo:Door , bot:Element ;
+        rdfs:label               "door bathroom:door bathroom:413975" ;
+        props:hasArea            "1.4675"^^xsd:double ;
+        props:hasCompressedGuid  "04PAG1Bjr6TAf$E0g4J31l" ;
+        props:hasVolume          "0.0350000000000017"^^xsd:double .
+
+om:Space_37081  a                brick:Space , bot:Space ;
+        rdfs:label               "106" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "63.1912492908127"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWac" .
+
+om:Element_278645  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:516890" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "2M8S0gJpj3yPZqJzdO1m5C" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Space_21823  a                brick:Space , bot:Space ;
+        rdfs:label               "66" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "16.4224999999998"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmW7u" .
+
+om:Element_279155  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:517623" ;
+        props:hasCompressedGuid  "2M8S0gJpj3yPZqJzdO1mUX" .
+
+om:Element_329923  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:736808" ;
+        props:hasArea            "2.195"^^xsd:double ;
+        props:hasCompressedGuid  "3ORUmADn9FDQ4Gx4J$puNP" ;
+        props:hasVolume          "0.130000000000003"^^xsd:double .
+
+om:Element_276456  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:512765" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "0ch9IuYfz1kwU3Q9uscdek" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_305598  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:666871" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "05zzZif0DAK9VuNWPLliy1" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_286517  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:527054" ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrpMf" .
+
+om:Element_244164  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Generic - 200mm:445736" ;
+        props:hasCompressedGuid  "3VYzeg_M52j9blEdZdd3HG" .
+
+om:Space_829  a                  brick:Space , bot:Space ;
+        rdfs:label               "3" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "7.66225802902489"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7Ejijkw" .
+
+om:Element_259522  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:503307" ;
+        props:hasCompressedGuid  "0gCmn8wtzE2gdjYhsOH6_1" .
+
+om:Element_162948  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:411162" ;
+        bot:hasSubElement        om:Element_163696 , om:Element_163577 ;
+        props:hasCompressedGuid  "3mt7RMhb12DO8XoPgVRF1P" .
+
+om:Element_258593  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:502831" ;
+        bot:hasSubElement        om:Element_291398 ;
+        props:hasCompressedGuid  "3Y0Oc$G819RgJuIzPRAxk6" .
+
+om:Element_278571  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:516821" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "2M8S0gJpj3yPZqJzdO1m23" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Space_12106  a                brick:Space , bot:Space ;
+        rdfs:label               "34" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "34.8874999999991"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjiiGj" .
+
+om:Space_26723  a                brick:Space , bot:Space ;
+        rdfs:label               "84" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "1.56800000000008"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWDz" .
+
+om:Element_254271  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:492350" ;
+        props:hasCompressedGuid  "3wAqibhLLFjg1AKNIEnOwQ" .
+
+om:Element_281487  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:519704" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "2M8S0gJpj3yPZqJzdO1mnE" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_253439  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:491306" ;
+        props:hasCompressedGuid  "3wAqibhLLFjg1AKNIEnNAE" .
+
+om:Element_161425  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:400523" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "34ulVHybrA7vIelXHgLqHv" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_284784  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:525366" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrpjH" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_246896  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:454824" ;
+        props:hasCompressedGuid  "0p4A5YpS57b9iUXUqcN6hr" .
+
+om:Element_248057  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:455741" ;
+        props:hasCompressedGuid  "0p4A5YpS57b9iUXUqcN6vW" .
+
+om:Element_246611  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:454580" ;
+        bot:hasSubElement        om:Element_305281 ;
+        props:hasCompressedGuid  "0p4A5YpS57b9iUXUqcN7Nf" .
+
+om:Element_287860  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:530446" ;
+        props:hasCompressedGuid  "0JLpf7M$LDUfFLMj5lnVJC" .
+
+om:Element_302541  a             beo:Door , bot:Element ;
+        rdfs:label               "Access Door:Access Door:659506" ;
+        props:hasArea            "4.1"^^xsd:double ;
+        props:hasCompressedGuid  "2muN5J9Kn7lfrSYIlzvspg" ;
+        props:hasVolume          "0.1"^^xsd:double .
+
+om:Element_283570  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:524398" ;
+        bot:hasSubElement        om:Element_285418 ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrpy9" .
+
+om:Element_90487  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:347684" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcSJq" .
+
+om:Element_244629  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Generic - 200mm:446039" ;
+        props:hasCompressedGuid  "3VYzeg_M52j9blEdZdd3Sl" .
+
+om:Element_278349  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:516642" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3ijYEfeqDFGxfiNo1Aj$Gc" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Space_26151  a                brick:Space , bot:Space ;
+        rdfs:label               "82" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "4.33231788030146"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWDv" .
+
+om:Element_329406  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:729854" ;
+        props:hasCompressedGuid  "00QZJSR51DP8_wgvwoVBO8" .
+
+om:Element_261047  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:511205" ;
+        bot:hasSubElement        om:Element_277340 , om:Element_261205 ;
+        props:hasCompressedGuid  "3TdKq_mN537hxbzsSIg1ar" .
+
+om:Element_252635  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:491037" ;
+        bot:hasSubElement        om:Element_276855 ;
+        props:hasCompressedGuid  "3wAqibhLLFjg1AKNIEnNEv" .
+
+om:Site_166  a                   brick:Location , bot:Site ;
+        rdfs:label               "Default" ;
+        brick:hasPart            om:Building_141 ;
+        bot:hasBuilding          om:Building_141 ;
+        props:hasCompressedGuid  "2GjH6vjy16N8uHIa0pPGyY" .
+
+om:Element_260538  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:509869" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3TdKq_mN537hxbzsSIg19z" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_90423  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:347643" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcSSh" .
+
+om:Element_245373  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Generic - 200mm:447105" ;
+        props:hasCompressedGuid  "39_kVZd6bAnPzKQvhf51Y2" .
+
+om:Element_305049  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:666276" ;
+        bot:hasSubElement        om:Element_305207 ;
+        props:hasCompressedGuid  "05zzZif0DAK9VuNWPLlibI" .
+
+om:Element_305989  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:667209" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "05zzZif0DAK9VuNWPLlis$" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Space_46779  a                brick:Space , bot:Space ;
+        rdfs:label               "124" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "17.9774999999998"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWbY" .
+
+om:Element_89364  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:347022" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcS5U" .
+
+om:Element_249820  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:458808" ;
+        props:hasCompressedGuid  "0p4A5YpS57b9iUXUqcNPfb" .
+
+om:Element_257788  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:501446" ;
+        props:hasCompressedGuid  "3NbD7zBF58uutiWZNqxEcF" .
+
+om:Space_44835  a                brick:Space , bot:Space ;
+        rdfs:label               "120" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "14.9474999999998"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWbg" .
+
+om:Element_248891  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:456424" ;
+        bot:hasSubElement        om:Element_248975 ;
+        props:hasCompressedGuid  "0p4A5YpS57b9iUXUqcN6or" .
+
+om:Space_25522  a                brick:Space , bot:Space ;
+        rdfs:label               "80" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "8.73694148786284"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWDa" .
+
+om:Space_18524  a                brick:Space , bot:Space ;
+        rdfs:label               "56" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "17.8782902703462"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjiiBk" .
+
+om:Element_260464  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:509868" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3TdKq_mN537hxbzsSIg19y" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_89300  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:346988" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcS6y" .
+
+om:Element_257503  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:500644" ;
+        props:hasCompressedGuid  "2wZuWyYKL2Q9bXfFmEnj$g" .
+
+om:Element_304964  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:666119" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "05zzZif0DAK9VuNWPLlidn" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_258952  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:503117" ;
+        bot:hasSubElement        om:Element_290648 ;
+        props:hasCompressedGuid  "0gCmn8wtzE2gdjYhsOH6p7" .
+
+om:Element_244071  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Generic - 200mm:445683" ;
+        props:hasCompressedGuid  "3VYzeg_M52j9blEdZdd3MB" .
+
+om:Space_17065  a                brick:Space , bot:Space ;
+        rdfs:label               "52" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "11.9355194752845"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjiiAD" .
+
+om:Element_96008  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:349909" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTm5" .
+
+om:Element_288525  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:531246" ;
+        props:hasCompressedGuid  "0JLpf7M$LDUfFLMj5lnVVi" .
+
+om:Element_286147  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:526656" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrpOd" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_284488  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:525172" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrpmJ" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_165290  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:424985" ;
+        props:hasCompressedGuid  "3Mkf_TSoPA4Rmf8t2egFTF" .
+
+om:Element_94815  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:349350" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTvs" .
+
+om:Element_284235  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:524940" ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrpth" .
+
+om:Element_277425  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:515329" ;
+        props:hasCompressedGuid  "0ch9IuYfz1kwU3Q9uscdNI" .
+
+om:Element_290226  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:535441" ;
+        props:hasCompressedGuid  "3O8NzrQbT6LQn_eJ9yBtNc" .
+
+om:Element_286834  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:527862" ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrpAH" .
+
+om:Space_6447  a                 brick:Space , bot:Space ;
+        rdfs:label               "21" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "1.42500000000004"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjiiLu" .
+
+om:Element_285186  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:525623" ;
+        bot:hasSubElement        om:Element_285270 ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrpfG" .
+
+om:Space_14381  a                brick:Space , bot:Space ;
+        rdfs:label               "44" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "48.9861381893341"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjiiAZ" .
+
+om:Element_291398  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:537580" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "1CbI3kjGj3Qh7pftv31njn" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_289412  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:534154" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3O8NzrQbT6LQn_eJ9yBtZz" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Space_49679  a                brick:Space , bot:Space ;
+        rdfs:label               "129" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "5.71000000000003"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWby" .
+
+om:Space_19078  a                brick:Space , bot:Space ;
+        rdfs:label               "57" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "18.3217268750335"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjiiBe" .
+
+om:Element_165170  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:424940" ;
+        bot:hasSubElement        om:Element_278928 , om:Element_278863 ;
+        props:hasCompressedGuid  "3Mkf_TSoPA4Rmf8t2egF2w" .
+
+om:Element_286073  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:526634" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrpPD" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_162030  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:409483" ;
+        bot:hasSubElement        om:Element_302401 , om:Element_162116 ;
+        props:hasCompressedGuid  "3mt7RMhb12DO8XoPgVR8d8" .
+
+om:Element_261659  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:511214" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3TdKq_mN537hxbzsSIg1a_" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_280590  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:518906" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "2M8S0gJpj3yPZqJzdO1mYi" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_244536  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Generic - 200mm:445986" ;
+        props:hasCompressedGuid  "3VYzeg_M52j9blEdZdd3TQ" .
+
+om:Element_90039  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:347359" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcSOF" .
+
+om:Element_248342  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:456072" ;
+        props:hasCompressedGuid  "0p4A5YpS57b9iUXUqcN6$L" .
+
+om:Element_245280  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Generic - 200mm:447042" ;
+        props:hasCompressedGuid  "39_kVZd6bAnPzKQvhf51X1" .
+
+om:Element_254643  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:493600" ;
+        props:hasCompressedGuid  "3wAqibhLLFjg1AKNIEnOM4" .
+
+om:Element_291071  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:537371" ;
+        props:hasCompressedGuid  "1CbI3kjGj3Qh7pftv31nk6" .
+
+om:Element_258688  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:502857" ;
+        props:hasCompressedGuid  "3Y0Oc$G819RgJuIzPRAxlW" .
+
+om:Element_276929  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:513603" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "0ch9IuYfz1kwU3Q9uscdwG" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Space_7933  a                 brick:Space , bot:Space ;
+        rdfs:label               "27" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "45.5705598305688"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjiiJV" .
+
+om:Space_38473  a                brick:Space , bot:Space ;
+        rdfs:label               "108" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "9.70077635241489"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWa0" .
+
+om:Element_258403  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:502749" ;
+        bot:hasSubElement        om:Element_258772 ;
+        props:hasCompressedGuid  "3Y0Oc$G819RgJuIzPRAxnq" .
+
+om:Space_21378  a                brick:Space , bot:Space ;
+        rdfs:label               "65" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "12.9302889226947"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmW7c" .
+
+om:Space_40438  a                brick:Space , bot:Space ;
+        rdfs:label               "112" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "5.37500000000008"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWaO" .
+
+om:Element_279849  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:518239" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "2M8S0gJpj3yPZqJzdO1me9" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Space_69228  a                brick:Space , bot:Space ;
+        rdfs:label               "158" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "94.1624006577144"^^xsd:double ;
+        props:hasCompressedGuid  "3pqrQ01Mv7GeaMdhQD1IZv" .
+
+om:Element_305366  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:666542" ;
+        bot:hasSubElement        om:Element_305524 ;
+        props:hasCompressedGuid  "05zzZif0DAK9VuNWPLliXO" .
+
+om:Space_43592  a                brick:Space , bot:Space ;
+        rdfs:label               "118" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "28.3695284884428"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWaK" .
+
+om:Element_280147  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:518485" ;
+        bot:hasSubElement        om:Element_280516 ;
+        props:hasCompressedGuid  "2M8S0gJpj3yPZqJzdO1mi3" .
+
+om:Element_89492  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:347116" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcS4y" .
+
+om:Element_252422  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:482412" ;
+        props:hasCompressedGuid  "0dXkULYh13NRJxPDHwzR0S" .
+
+om:Space_42830  a                brick:Space , bot:Space ;
+        rdfs:label               "117" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "35.2019700835054"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWaI" .
+
+om:Element_253327  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:491255" ;
+        bot:hasSubElement        om:Element_254541 ;
+        props:hasCompressedGuid  "3wAqibhLLFjg1AKNIEnNDJ" .
+
+om:Element_166190  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:426260" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3Mkf_TSoPA4Rmf8t2eg0f2" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Space_52691  a                brick:Space , bot:Space ;
+        rdfs:label               "137" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "11.9371667590826"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWbC" .
+
+om:Element_93558  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:348798" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTYk" .
+
+om:Element_282714  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:521527" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "2TDMdm0iH0gRGTlH$ALQsi" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_162716  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:411011" ;
+        bot:hasSubElement        om:Element_277073 ;
+        props:hasCompressedGuid  "3mt7RMhb12DO8XoPgVRFF0" .
+
+om:Element_246706  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:454666" ;
+        props:hasCompressedGuid  "0p4A5YpS57b9iUXUqcN6fN" .
+
+om:Element_287955  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:530541" ;
+        props:hasCompressedGuid  "0JLpf7M$LDUfFLMj5lnVIl" .
+
+om:Element_283665  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:524531" ;
+        bot:hasSubElement        om:Element_285101 ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrp_K" .
+
+om:Element_276855  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:513416" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "0ch9IuYfz1kwU3Q9uscdrR" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_289116  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:533944" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3O8NzrQbT6LQn_eJ9yBtlF" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_261290  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:511210" ;
+        props:hasCompressedGuid  "3TdKq_mN537hxbzsSIg1aw" .
+
+om:Element_280778  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:519162" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "2M8S0gJpj3yPZqJzdO1mci" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_89151  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:346442" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcSEQ" .
+
+om:Element_254467  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:493349" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3wAqibhLLFjg1AKNIEnOg1" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_96136  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:349961" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTtP" .
+
+om:Element_279775  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:518177" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "2M8S0gJpj3yPZqJzdO1mft" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_289803  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:534999" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3O8NzrQbT6LQn_eJ9yBtUW" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Space_88688  a                brick:Space , bot:Space ;
+        rdfs:label               "172" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "5.41200000000173"^^xsd:double ;
+        props:hasCompressedGuid  "0jin3tJK1F98a1vkIBEcff" .
+
+om:Element_294281  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:546590" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWCs" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Space_1089  a                 brick:Space , bot:Space ;
+        rdfs:label               "4" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "8.73694148786265"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7Ejijkq" .
+
+om:Element_91558  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:347958" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcSNc" .
+
+om:Space_23871  a                brick:Space , bot:Space ;
+        rdfs:label               "72" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "4.66219576001494"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmW7q" .
+
+om:Space_27973  a                brick:Space , bot:Space ;
+        rdfs:label               "87" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "9.11249999999833"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWDp" .
+
+om:Space_31112  a                brick:Space , bot:Space ;
+        rdfs:label               "94" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "27.33739002844"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWD1" .
+
+om:Element_255631  a             beo:Door , bot:Element ;
+        rdfs:label               "door bathroom:door bathroom:496491" ;
+        props:hasArea            "1.4675"^^xsd:double ;
+        props:hasCompressedGuid  "1pamL1Jf50oeVEtBlCB6Ro" ;
+        props:hasVolume          "0.0350000000000017"^^xsd:double .
+
+om:Element_95816  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:349817" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTof" .
+
+om:Element_282142  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:520548" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "2M8S0gJpj3yPZqJzdO1nCo" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_277710  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:516299" ;
+        props:hasCompressedGuid  "3ijYEfeqDFGxfiNo1Aj$RF" .
+
+om:Element_276781  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:513223" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "0ch9IuYfz1kwU3Q9uscdmK" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Space_57514  a                brick:Space , bot:Space ;
+        rdfs:label               "148" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "9.86780423998507"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWce" .
+
+om:Element_289042  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:533848" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3O8NzrQbT6LQn_eJ9yBtil" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Space_53886  a                brick:Space , bot:Space ;
+        rdfs:label               "140" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "23.7173640043775"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWb2" .
+
+om:Element_165648  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:425203" ;
+        bot:hasSubElement        om:Element_302613 ;
+        props:hasCompressedGuid  "3Mkf_TSoPA4Rmf8t2egFUb" .
+
+om:Element_244443  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Generic - 200mm:445857" ;
+        props:hasCompressedGuid  "3VYzeg_M52j9blEdZdd3JP" .
+
+om:Element_248701  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:456353" ;
+        props:hasCompressedGuid  "0p4A5YpS57b9iUXUqcN6py" .
+
+om:Element_92168  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:348250" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTgA" .
+
+om:Element_243689  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Generic - 200mm:444759" ;
+        props:hasCompressedGuid  "3VYzeg_M52j9blEdZdd30l" .
+
+om:Element_256494  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:498863" ;
+        bot:hasSubElement        om:Element_257038 ;
+        props:hasCompressedGuid  "16vzN2cW5AIfvApSpYwdwc" .
+
+om:Element_247772  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:455615" ;
+        props:hasCompressedGuid  "0p4A5YpS57b9iUXUqcN6dY" .
+
+om:Element_90167  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:347413" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcSV5" .
+
+om:Element_92104  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:348204" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcThy" .
+
+om:Space_15760  a                brick:Space , bot:Space ;
+        rdfs:label               "47" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "3.80000000000003"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjiiAx" .
+
+om:Element_286929  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:527910" ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrp51" .
+
+om:Element_90103  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:347385" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcSOf" .
+
+om:Space_79979  a                brick:Space , bot:Space ;
+        rdfs:label               "164" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "255.365525061078"^^xsd:double ;
+        props:hasCompressedGuid  "3pqrQ01Mv7GeaMdhQD1II9" .
+
+om:Space_34731  a                brick:Space , bot:Space ;
+        rdfs:label               "100" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "1.43039999999994"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWWR" .
+
+om:Element_258208  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:502427" ;
+        props:hasCompressedGuid  "3NbD7zBF58uutiWZNqxENI" .
+
+om:Space_9198  a                 brick:Space , bot:Space ;
+        rdfs:label               "29" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "17.2982179474795"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjiiJR" .
+
+om:Element_255192  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:496203" ;
+        bot:hasSubElement        om:Element_255696 , om:Element_255631 ;
+        props:hasCompressedGuid  "3RIkctSZb37ecUHpOZZ6OO" .
+
+om:Space_58289  a                brick:Space , bot:Space ;
+        rdfs:label               "151" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "13.0135212529184"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWck" .
+
+om:Element_304700  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:665814" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "05zzZif0DAK9VuNWPLliiW" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_279493  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:517922" ;
+        props:hasCompressedGuid  "2M8S0gJpj3yPZqJzdO1mLq" .
+
+om:Element_250315  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:459452" ;
+        bot:hasSubElement        om:Element_250758 ;
+        props:hasCompressedGuid  "35cQTx6gLCyff6NHvYym7k" .
+
+om:Element_256019  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:497805" ;
+        bot:hasSubElement        om:Element_287446 ;
+        props:hasCompressedGuid  "16vzN2cW5AIfvApSpYwdg4" .
+
+om:Element_244908  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Generic - 200mm:446750" ;
+        props:hasCompressedGuid  "39_kVZd6bAnPzKQvhf51iT" .
+
+om:Element_282376  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:521084" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "2TDMdm0iH0gRGTlH$ALQld" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_93686  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:348855" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTXd" .
+
+om:Element_288799  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:533156" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3O8NzrQbT6LQn_eJ9yBtpJ" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_249974  a             beo:Door , bot:Element ;
+        rdfs:label               "door bathroom:door bathroom:459200" ;
+        props:hasArea            "1.4675"^^xsd:double ;
+        props:hasCompressedGuid  "35cQTx6gLCyff6NHvYymAI" ;
+        props:hasVolume          "0.0350000000000017"^^xsd:double .
+
+om:Space_20656  a                brick:Space , bot:Space ;
+        rdfs:label               "63" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "18.1687499999998"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmW7Y" .
+
+om:Element_164226  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Generic - 200mm:424044" ;
+        bot:hasSubElement        om:Element_329997 , om:Element_278153 ;
+        props:hasCompressedGuid  "0LbdSMP8DEb8sJj7RLTlkM" .
+
+om:Element_245652  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Generic - 200mm:447276" ;
+        props:hasCompressedGuid  "39_kVZd6bAnPzKQvhf51al" .
+
+om:Element_96264  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:350015" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTtl" .
+
+om:Element_93622  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:348820" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTX4" .
+
+om:Element_278863  a             beo:Door , bot:Element ;
+        rdfs:label               "door bathroom:door bathroom:517062" ;
+        props:hasArea            "1.4675"^^xsd:double ;
+        props:hasCompressedGuid  "2M8S0gJpj3yPZqJzdO1m6G" ;
+        props:hasVolume          "0.0350000000000017"^^xsd:double .
+
+om:Space_2644  a                 brick:Space , bot:Space ;
+        rdfs:label               "9" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "11.2726999999999"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjijkE" .
+
+om:Element_166106  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:426057" ;
+        props:hasCompressedGuid  "3Mkf_TSoPA4Rmf8t2eg0iV" .
+
+om:Element_285894  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:526191" ;
+        bot:hasSubElement        om:Element_286147 ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrpW8" .
+
+om:Element_248437  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:456110" ;
+        props:hasCompressedGuid  "0p4A5YpS57b9iUXUqcN6$p" .
+
+om:Element_277183  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:513968" ;
+        props:hasArea            "2.195"^^xsd:double ;
+        props:hasCompressedGuid  "0ch9IuYfz1kwU3Q9uscdzZ" ;
+        props:hasVolume          "0.130000000000003"^^xsd:double .
+
+om:Element_290902  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:537207" ;
+        props:hasCompressedGuid  "1CbI3kjGj3Qh7pftv31nhg" .
+
+om:Element_291166  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:537409" ;
+        bot:hasSubElement        om:Element_291250 ;
+        props:hasCompressedGuid  "1CbI3kjGj3Qh7pftv31nlS" .
+
+om:Space_2367  a                 brick:Space , bot:Space ;
+        rdfs:label               "8" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "17.1407179474781"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjijkC" .
+
+om:Space_11262  a                brick:Space , bot:Space ;
+        rdfs:label               "33" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "106.241634477186"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjiiJJ" .
+
+om:Element_163486  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:413025" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "04PAG1Bjr6TAf$E0g4J2mP" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_89643  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:347164" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcSRC" .
+
+om:Space_6159  a                 brick:Space , bot:Space ;
+        rdfs:label               "20" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "1.42500000000002"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjiiL_" .
+
+om:Element_96200  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:349983" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTtF" .
+
+om:Element_283950  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:524802" ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrprb" .
+
+om:Element_95944  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:349872" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTnW" .
+
+om:Space_35751  a                brick:Space , bot:Space ;
+        rdfs:label               "104" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "76.4289113917499"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWWJ" .
+
+om:Element_254033  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:491492" ;
+        props:hasCompressedGuid  "3wAqibhLLFjg1AKNIEnN90" .
+
+om:Space_20361  a                brick:Space , bot:Space ;
+        rdfs:label               "62" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "19.1700000000001"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmW7W" .
+
+om:Space_34997  a                brick:Space , bot:Space ;
+        rdfs:label               "101" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "11.8461004284148"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWWT" .
+
+om:Element_330162  a             beo:Door , bot:Element ;
+        rdfs:label               "Acess Door:Acess Door:750806" ;
+        props:hasArea            "4.1"^^xsd:double ;
+        props:hasCompressedGuid  "3KZC4nXaDE8PxnmKdqjjoN" ;
+        props:hasVolume          "0.1"^^xsd:double .
+
+om:Element_252517  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:482475" ;
+        props:hasCompressedGuid  "0dXkULYh13NRJxPDHwzR3R" .
+
+om:Element_277340  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:515223" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "0ch9IuYfz1kwU3Q9uscdH4" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Space_28942  a                brick:Space , bot:Space ;
+        rdfs:label               "89" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "9.11249999999833"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWDt" .
+
+om:Element_244350  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Generic - 200mm:445825" ;
+        props:hasCompressedGuid  "3VYzeg_M52j9blEdZdd3Jv" .
+
+om:Space_7299  a                 brick:Space , bot:Space ;
+        rdfs:label               "24" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "4.96737891806797"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjiiLs" .
+
+om:Space_44385  a                brick:Space , bot:Space ;
+        rdfs:label               "119" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "24.9694683746823"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWaM" .
+
+om:Element_253215  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:491228" ;
+        props:hasCompressedGuid  "3wAqibhLLFjg1AKNIEnNDu" .
+
+om:Element_92296  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:348334" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTf_" .
+
+om:Element_247181  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:455052" ;
+        bot:hasSubElement        om:Element_305672 , om:Element_282714 , om:Element_305746 , om:Element_247265 , om:Element_283052 , om:Element_304457 , om:Element_305450 , om:Element_305820 , om:Element_282788 , om:Element_283126 ;
+        props:hasCompressedGuid  "0p4A5YpS57b9iUXUqcN6lH" .
+
+om:Element_259606  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:503337" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "0gCmn8wtzE2gdjYhsOH6_Z" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_162604  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:410958" ;
+        props:hasCompressedGuid  "3mt7RMhb12DO8XoPgVRFCD" .
+
+om:Element_329997  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:736877" ;
+        props:hasArea            "2.195"^^xsd:double ;
+        props:hasCompressedGuid  "3ORUmADn9FDQ4Gx4J$puMS" ;
+        props:hasVolume          "0.130000000000003"^^xsd:double .
+
+om:Element_261385  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:511211" ;
+        props:hasCompressedGuid  "3TdKq_mN537hxbzsSIg1ax" .
+
+om:Element_90295  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:347504" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcSUW" .
+
+om:Element_260623  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:511201" ;
+        bot:hasSubElement        om:Element_261131 ;
+        props:hasCompressedGuid  "3TdKq_mN537hxbzsSIg1an" .
+
+om:Element_279617  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:518053" ;
+        bot:hasSubElement        om:Element_279923 , om:Element_279849 , om:Element_279775 , om:Element_279701 ;
+        props:hasCompressedGuid  "2M8S0gJpj3yPZqJzdO1mNp" .
+
+om:Element_92232  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:348302" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTfU" .
+
+om:Element_276070  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:512065" ;
+        bot:hasSubElement        om:Element_278497 , om:Element_278423 , om:Element_278349 ;
+        props:hasCompressedGuid  "3TdKq_mN537hxbzsSIg0MH" .
+
+om:Element_91976  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:348148" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcSKa" .
+
+om:Element_249250  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:458401" ;
+        props:hasCompressedGuid  "0p4A5YpS57b9iUXUqcN6Jy" .
+
+om:Space_56049  a                brick:Space , bot:Space ;
+        rdfs:label               "144" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "14.2724999999999"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWbQ" .
+
+om:Element_260171  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:509864" ;
+        props:hasCompressedGuid  "3TdKq_mN537hxbzsSIg19u" .
+
+om:Element_256954  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:499605" ;
+        props:hasCompressedGuid  "16vzN2cW5AIfvApSpYwdsS" .
+
+om:Element_90231  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:347439" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcSV$" .
+
+om:Space_5014  a                 brick:Space , bot:Space ;
+        rdfs:label               "17" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "76.4910244971595"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjiiLW" .
+
+om:Element_160682  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:397817" ;
+        props:hasCompressedGuid  "34ulVHybrA7vIelXHgLqaB" .
+
+om:Space_67526  a                brick:Space , bot:Space ;
+        rdfs:label               "157" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "265.917865634975"^^xsd:double ;
+        props:hasCompressedGuid  "3pqrQ01Mv7GeaMdhQD1I$F" .
+
+om:Element_91912  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:348122" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcSKA" .
+
+om:Space_32624  a                brick:Space , bot:Space ;
+        rdfs:label               "96" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "11.2727000000003"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWD5" .
+
+om:Space_24166  a                brick:Space , bot:Space ;
+        rdfs:label               "73" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "2.05685107059482"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmW7s" .
+
+om:Element_244815  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Generic - 200mm:446149" ;
+        props:hasCompressedGuid  "3VYzeg_M52j9blEdZdd3Uz" .
+
+om:Element_91635  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:348021" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcSMb" .
+
+om:Element_285566  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:525879" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrpbG" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_287446  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:528615" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHro_0" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_278005  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:516303" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3ijYEfeqDFGxfiNo1Aj$RB" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Space_1355  a                 brick:Space , bot:Space ;
+        rdfs:label               "5" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "4.33231788030175"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7Ejijks" .
+
+om:Element_161499  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:400799" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "34ulVHybrA7vIelXHgLqLj" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_305281  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:666419" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "05zzZif0DAK9VuNWPLliZ5" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_247867  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:455657" ;
+        props:hasCompressedGuid  "0p4A5YpS57b9iUXUqcN6cq" .
+
+om:Element_286232  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:526873" ;
+        bot:hasSubElement        om:Element_286749 , om:Element_286675 , om:Element_286601 ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrpL_" .
+
+om:Element_95164  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:349499" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcT$h" .
+
+om:Element_96392  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:350073" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTsf" .
+
+om:Element_253915  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:491453" ;
+        props:hasCompressedGuid  "3wAqibhLLFjg1AKNIEnN8P" .
+
+om:Space_3203  a                 brick:Space , bot:Space ;
+        rdfs:label               "12" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "53.069415950627"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjijZk" .
+
+om:Element_250600  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:459649" ;
+        props:hasCompressedGuid  "35cQTx6gLCyff6NHvYym3J" .
+
+om:Element_256304  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:498772" ;
+        props:hasCompressedGuid  "16vzN2cW5AIfvApSpYwdvT" .
+
+om:Element_261818  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:511285" ;
+        props:hasCompressedGuid  "3TdKq_mN537hxbzsSIg1Zb" .
+
+om:Element_292754  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:540971" ;
+        props:hasCompressedGuid  "0qT631TWf0IwT1wFys3Kcc" .
+
+om:Space_57788  a                brick:Space , bot:Space ;
+        rdfs:label               "149" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "4.08000000000009"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWcg" .
+
+om:Space_55566  a                brick:Space , bot:Space ;
+        rdfs:label               "143" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "12.5975237911442"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWbO" .
+
+om:Element_285492  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:525783" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrpgm" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_290500  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:535703" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3O8NzrQbT6LQn_eJ9yBtBW" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_249904  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:459130" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "0p4A5YpS57b9iUXUqcNPid" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_287372  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:528549" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHro$2" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_291483  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:538155" ;
+        props:hasCompressedGuid  "0UXXS3t8LCBuTigtNPpoGa" .
+
+om:Element_96479  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:350107" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTrB" .
+
+om:Element_248975  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:456498" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "0p4A5YpS57b9iUXUqcN6rl" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_96770  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:350224" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTB0" .
+
+om:Element_255287  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:496253" ;
+        props:hasCompressedGuid  "3RIkctSZb37ecUHpOZZ6Ok" .
+
+om:Space_39316  a                brick:Space , bot:Space ;
+        rdfs:label               "110" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "15.5282763524149"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWa4" .
+
+om:Element_247540  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:455541" ;
+        bot:hasSubElement        om:Element_282212 ;
+        props:hasCompressedGuid  "0p4A5YpS57b9iUXUqcN6ae" .
+
+om:Space_12950  a                brick:Space , bot:Space ;
+        rdfs:label               "36" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "16.8974999999996"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjiiGf" .
+
+om:Space_24470  a                brick:Space , bot:Space ;
+        rdfs:label               "74" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "18.699303019007"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmW78" .
+
+om:Element_255002  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:496096" ;
+        props:hasCompressedGuid  "3RIkctSZb37ecUHpOZZ6Mp" .
+
+om:Element_259047  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:503156" ;
+        props:hasCompressedGuid  "0gCmn8wtzE2gdjYhsOH6p_" .
+
+om:Element_281709  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:519931" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "2M8S0gJpj3yPZqJzdO1moj" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Space_56984  a                brick:Space , bot:Space ;
+        rdfs:label               "147" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "14.2724999999999"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWbM" .
+
+om:Element_281289  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:519561" ;
+        props:hasCompressedGuid  "2M8S0gJpj3yPZqJzdO1m$V" .
+
+om:Element_305746  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:666981" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "05zzZif0DAK9VuNWPLliwJ" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_279058  a             beo:Door , bot:Element ;
+        rdfs:label               "door bathroom:door bathroom:517281" ;
+        props:hasArea            "1.4675"^^xsd:double ;
+        props:hasCompressedGuid  "2M8S0gJpj3yPZqJzdO1mRt" ;
+        props:hasVolume          "0.0350000000000017"^^xsd:double .
+
+om:Space_75061  a                brick:Space , bot:Space ;
+        rdfs:label               "162" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "402.74815810949"^^xsd:double ;
+        props:hasCompressedGuid  "3pqrQ01Mv7GeaMdhQD1IgH" .
+
+om:Element_281082  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:519355" ;
+        props:hasCompressedGuid  "2M8S0gJpj3yPZqJzdO1mxj" .
+
+om:Element_277509  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:515518" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "0ch9IuYfz1kwU3Q9uscdLj" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Space_78597  a                brick:Space , bot:Space ;
+        rdfs:label               "163" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "129.479490522813"^^xsd:double ;
+        props:hasCompressedGuid  "3pqrQ01Mv7GeaMdhQD1IgV" .
+
+om:Element_260285  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:509865" ;
+        props:hasCompressedGuid  "3TdKq_mN537hxbzsSIg19v" .
+
+om:Element_304785  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:665929" ;
+        props:hasCompressedGuid  "05zzZif0DAK9VuNWPLlig$" .
+
+om:Space_51843  a                brick:Space , bot:Space ;
+        rdfs:label               "135" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "18.0385002105018"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWb8" .
+
+om:Element_92360  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:348359" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTeN" .
+
+om:Element_243881  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Generic - 200mm:444922" ;
+        props:hasCompressedGuid  "3VYzeg_M52j9blEdZdd322" .
+
+om:Element_160796  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:398096" ;
+        props:hasCompressedGuid  "34ulVHybrA7vIelXHgLqlY" .
+
+om:Element_285989  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:526553" ;
+        bot:hasSubElement        om:Element_286073 ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrpU_" .
+
+om:Element_281635  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:519883" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "2M8S0gJpj3yPZqJzdO1moT" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_244722  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Generic - 200mm:446099" ;
+        props:hasCompressedGuid  "3VYzeg_M52j9blEdZdd3Vh" .
+
+om:Space_30121  a                brick:Space , bot:Space ;
+        rdfs:label               "91" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "15.0"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWDB" .
+
+om:Element_305672  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:666933" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "05zzZif0DAK9VuNWPLlix3" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Space_6987  a                 brick:Space , bot:Space ;
+        rdfs:label               "23" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "11.8844373230054"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjiiLq" .
+
+om:Element_92447  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:348396" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTey" .
+
+om:Space_50320  a                brick:Space , bot:Space ;
+        rdfs:label               "131" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "1.9"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWbm" .
+
+om:Element_289486  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:534322" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3O8NzrQbT6LQn_eJ9yBtb5" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_164468  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:424277" ;
+        bot:hasSubElement        om:Element_278993 , om:Element_278793 , om:Element_278719 , om:Element_278645 , om:Element_278571 ;
+        props:hasCompressedGuid  "3Mkf_TSoPA4Rmf8t2egF83" .
+
+om:Space_19397  a                brick:Space , bot:Space ;
+        rdfs:label               "58" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "18.032160245327"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjiiBg" .
+
+om:Element_280863  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:519245" ;
+        props:hasCompressedGuid  "2M8S0gJpj3yPZqJzdO1muR" .
+
+om:Element_246514  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:454359" ;
+        bot:hasSubElement        om:Element_305133 ;
+        props:hasCompressedGuid  "0p4A5YpS57b9iUXUqcN7IA" .
+
+om:Element_254727  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:493993" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3wAqibhLLFjg1AKNIEnOGD" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Space_27546  a                brick:Space , bot:Space ;
+        rdfs:label               "86" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "12.6000000000001"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWDn" .
+
+om:Element_288240  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:530784" ;
+        props:hasCompressedGuid  "0JLpf7M$LDUfFLMj5lnVMY" .
+
+om:Space_23619  a                brick:Space , bot:Space ;
+        rdfs:label               "71" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "13.0135212529185"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmW7o" .
+
+om:Element_260718  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:511202" ;
+        props:hasCompressedGuid  "3TdKq_mN537hxbzsSIg1ao" .
+
+om:Element_281561  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:519754" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "2M8S0gJpj3yPZqJzdO1mmS" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_275901  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:511573" ;
+        bot:hasSubElement        om:Element_277509 ;
+        props:hasCompressedGuid  "3TdKq_mN537hxbzsSIg1k5" .
+
+om:Element_276165  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:512181" ;
+        props:hasCompressedGuid  "3TdKq_mN537hxbzsSIg0Lb" .
+
+om:Element_250230  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:459349" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "35cQTx6gLCyff6NHvYym47" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_95688  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:349753" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTpf" .
+
+om:Element_163696  a             beo:Door , bot:Element ;
+        rdfs:label               "door bathroom:door bathroom:414056" ;
+        props:hasArea            "1.4675"^^xsd:double ;
+        props:hasCompressedGuid  "04PAG1Bjr6TAf$E0g4J30G" ;
+        props:hasVolume          "0.0350000000000017"^^xsd:double .
+
+om:Element_94751  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:349324" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTvS" .
+
+om:Element_249345  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:458455" ;
+        bot:hasSubElement        om:Element_250230 , om:Element_250149 , om:Element_249904 ;
+        props:hasCompressedGuid  "0p4A5YpS57b9iUXUqcN6IA" .
+
+om:Space_3773  a                 brick:Space , bot:Space ;
+        rdfs:label               "13" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "16.9382179474779"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjijXY" .
+
+om:Element_94000  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:348969" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTdv" .
+
+om:Element_163839  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:414234" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "04PAG1Bjr6TAf$E0g4J3DY" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_256842  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:499387" ;
+        props:hasCompressedGuid  "16vzN2cW5AIfvApSpYwdoo" .
+
+om:Space_39721  a                brick:Space , bot:Space ;
+        rdfs:label               "111" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "15.3257763524148"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWa6" .
+
+om:Element_95624  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:349731" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTpp" .
+
+om:Space_53031  a                brick:Space , bot:Space ;
+        rdfs:label               "138" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "14.5892066362543"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWbE" .
+
+om:Element_258003  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:502370" ;
+        bot:hasSubElement        om:Element_290986 ;
+        props:hasCompressedGuid  "3NbD7zBF58uutiWZNqxEKh" .
+
+om:Element_97038  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:350337" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcT9H" .
+
+om:Element_89719  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:347203" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcSQJ" .
+
+om:Element_304457  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:665532" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "05zzZif0DAK9VuNWPLliHA" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_278423  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:516676" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3ijYEfeqDFGxfiNo1Aj$H0" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Space_4162  a                 brick:Space , bot:Space ;
+        rdfs:label               "14" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "17.140717947478"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjijXy" .
+
+om:Element_328979  a             beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:710854" ;
+        props:hasCompressedGuid  "13iMtcr_XAfA6bDmUB313J" .
+
+om:Space_10501  a                brick:Space , bot:Space ;
+        rdfs:label               "31" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "17.0350000000007"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjiiJN" .
+
+om:Element_282788  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:521555" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "2TDMdm0iH0gRGTlH$ALQt8" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_282535  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:521256" ;
+        props:hasCompressedGuid  "2TDMdm0iH0gRGTlH$ALQop" .
+
+om:Element_163765  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:414155" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "04PAG1Bjr6TAf$E0g4J32p" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_286327  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:526908" ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrpLR" .
+
+om:Element_259332  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:503247" ;
+        bot:hasSubElement        om:Element_290500 ;
+        props:hasCompressedGuid  "0gCmn8wtzE2gdjYhsOH6n5" .
+
+om:Element_163060  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:411245" ;
+        props:hasCompressedGuid  "3mt7RMhb12DO8XoPgVRF0k" .
+
+om:Element_284636  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:525274" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrpoz" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_277826  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:516300" ;
+        bot:hasSubElement        om:Element_278005 ;
+        props:hasCompressedGuid  "3ijYEfeqDFGxfiNo1Aj$R8" .
+
+om:Space_15522  a                brick:Space , bot:Space ;
+        rdfs:label               "46" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "2.66109140986658"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjiiAv" .
+
+om:Element_329691  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Generic - 200mm:736427" ;
+        bot:hasSubElement        om:Element_329923 , om:Element_329775 ;
+        props:hasCompressedGuid  "3ORUmADn9FDQ4Gx4J$puTQ" .
+
+om:Element_289877  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:535035" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3O8NzrQbT6LQn_eJ9yBtUC" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Space_7578  a                 brick:Space , bot:Space ;
+        rdfs:label               "25" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "12.2092236475852"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjiiLm" .
+
+om:Space_15245  a                brick:Space , bot:Space ;
+        rdfs:label               "45" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "7.98327422959999"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjiiA$" .
+
+om:Element_269116  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:511456" ;
+        props:hasCompressedGuid  "3TdKq_mN537hxbzsSIg1Wm" .
+
+om:Element_281984  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:520394" ;
+        props:hasCompressedGuid  "2M8S0gJpj3yPZqJzdO1nAS" .
+
+om:Element_247635  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:455584" ;
+        props:hasCompressedGuid  "0p4A5YpS57b9iUXUqcN6dz" .
+
+om:Element_288884  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:533739" ;
+        props:hasCompressedGuid  "3O8NzrQbT6LQn_eJ9yBtgS" .
+
+om:Element_164596  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:424407" ;
+        props:hasCompressedGuid  "3Mkf_TSoPA4Rmf8t2egFA1" .
+
+om:Element_90574  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:347711" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcSJl" .
+
+om:Element_284562  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:525212" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrppx" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_283380  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:524117" ;
+        props:hasCompressedGuid  "2LQ0rcUwjCZBgWzunqjvvv" .
+
+om:Element_165760  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:425846" ;
+        props:hasCompressedGuid  "3Mkf_TSoPA4Rmf8t2egFGW" .
+
+om:Element_281177  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:519468" ;
+        props:hasCompressedGuid  "2M8S0gJpj3yPZqJzdO1mzw" .
+
+om:Element_92907  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:348612" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTiK" .
+
+om:Element_329294  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:729543" ;
+        props:hasCompressedGuid  "00QZJSR51DP8_wgvwoVBKn" .
+
+om:Element_243976  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Generic - 200mm:445003" ;
+        props:hasCompressedGuid  "3VYzeg_M52j9blEdZdd3Cp" .
+
+om:Space_48382  a                brick:Space , bot:Space ;
+        rdfs:label               "127" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "52.8885000000014"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWbu" .
+
+om:Element_96072  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:349933" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTmz" .
+
+om:Element_90906  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:347876" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcSGq" .
+
+om:Element_94588  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:349270" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTw6" .
+
+om:Space_20109  a                brick:Space , bot:Space ;
+        rdfs:label               "61" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "12.5577222605201"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmW7k" .
+
+om:Space_16510  a                brick:Space , bot:Space ;
+        rdfs:label               "50" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "11.31"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjiiAn" .
+
+om:Element_167086  a             beo:Wall , bot:Element ;
+        rdfs:label               "Floor:Generic 150mm:431286" ;
+        props:hasCompressedGuid  "1BtBcznl1AvwKZJQMUJnL2" .
+
+om:Element_95752  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:349789" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcToD" .
+
+om:Space_45859  a                brick:Space , bot:Space ;
+        rdfs:label               "122" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "17.9774999999999"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWbk" .
+
+om:Element_94524  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:349229" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTxz" .
+
+om:Space_82034  a                brick:Space , bot:Space ;
+        rdfs:label               "165" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "256.472618971983"^^xsd:double ;
+        props:hasCompressedGuid  "3pqrQ01Mv7GeaMdhQD1IIL" .
+
+om:Element_89847  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:347278" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcSPU" .
+
+om:Element_261733  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:511215" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3TdKq_mN537hxbzsSIg1a$" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_95001  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:349429" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTub" .
+
+om:Space_58885  a                brick:Space , bot:Space ;
+        rdfs:label               "153" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "12.55772226052"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWcY" .
+
+om:Space_54530  a                brick:Space , bot:Space ;
+        rdfs:label               "141" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "20.9924511097206"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWb4" .
+
+om:Element_249630  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:458680" ;
+        props:hasCompressedGuid  "0p4A5YpS57b9iUXUqcN6Nb" .
+
+om:Space_13812  a                brick:Space , bot:Space ;
+        rdfs:label               "41" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "43.849553847875"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjiiCQ" .
+
+om:Element_257598  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:501371" ;
+        props:hasCompressedGuid  "3NbD7zBF58uutiWZNqxEao" .
+
+om:Element_280516  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:518860" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "2M8S0gJpj3yPZqJzdO1mYQ" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_96846  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:350262" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTBc" .
+
+om:Element_257313  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:499841" ;
+        props:hasCompressedGuid  "2wZuWyYKL2Q9bXfFmEnjpF" .
+
+om:Element_283126  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:522202" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "0Cpr5ZIib5aRWYRgMZopS9" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_164822  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:424714" ;
+        props:hasCompressedGuid  "3Mkf_TSoPA4Rmf8t2egF1S" .
+
+om:Element_278993  a             beo:Door , bot:Element ;
+        rdfs:label               "door bathroom:door bathroom:517191" ;
+        props:hasArea            "1.4675"^^xsd:double ;
+        props:hasCompressedGuid  "2M8S0gJpj3yPZqJzdO1mOH" ;
+        props:hasVolume          "0.0350000000000017"^^xsd:double .
+
+om:Element_94902  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:349394" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTu2" .
+
+om:Element_161935  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:407380" ;
+        bot:hasSubElement        om:Element_276929 ;
+        props:hasCompressedGuid  "2br6Msl8bFw9aWJg1twGQg" .
+
+om:Element_165054  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:424906" ;
+        props:hasCompressedGuid  "3Mkf_TSoPA4Rmf8t2egF2S" .
+
+om:Element_288335  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:530893" ;
+        props:hasCompressedGuid  "0JLpf7M$LDUfFLMj5lnVKF" .
+
+om:Element_279923  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:518291" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "2M8S0gJpj3yPZqJzdO1mh5" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_281403  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:519644" ;
+        props:hasCompressedGuid  "2M8S0gJpj3yPZqJzdO1m_A" .
+
+om:Element_284045  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:524859" ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrprS" .
+
+om:Element_165994  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:425944" ;
+        props:hasCompressedGuid  "3Mkf_TSoPA4Rmf8t2egFIE" .
+
+om:Element_92040  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:348173" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcThT" .
+
+om:Element_290036  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:535247" ;
+        props:hasCompressedGuid  "3O8NzrQbT6LQn_eJ9yBtIu" .
+
+om:Element_162356  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:410710" ;
+        bot:hasSubElement        om:Element_302541 ;
+        props:hasCompressedGuid  "3mt7RMhb12DO8XoPgVRF8L" .
+
+om:Element_330071  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:737000" ;
+        props:hasArea            "2.195"^^xsd:double ;
+        props:hasCompressedGuid  "3ORUmADn9FDQ4Gx4J$puKP" ;
+        props:hasVolume          "0.130000000000003"^^xsd:double .
+
+om:Element_280442  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:518490" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "2M8S0gJpj3yPZqJzdO1miC" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_166692  a             beo:Wall , bot:Element ;
+        rdfs:label               "Floor:Generic 150mm BLUE:426775" ;
+        props:hasCompressedGuid  "0GF2p_Den1Kf47lvbMQsyG" .
+
+om:Element_284953  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:525465" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrpl_" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_283052  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:522121" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "0Cpr5ZIib5aRWYRgMZopTQ" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Space_6699  a                 brick:Space , bot:Space ;
+        rdfs:label               "22" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "4.46737891806802"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjiiLw" .
+
+om:Space_19806  a                brick:Space , bot:Space ;
+        rdfs:label               "59" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "12.1245949757126"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjiiBa" .
+
+om:Element_161142  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:398512" ;
+        bot:hasSubElement        om:Element_161721 , om:Element_161425 , om:Element_161285 ;
+        props:hasCompressedGuid  "34ulVHybrA7vIelXHgLqn2" .
+
+om:Space_35249  a                brick:Space , bot:Space ;
+        rdfs:label               "102" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "4.46737891806777"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWWV" .
+
+om:Element_287531  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:528706" ;
+        bot:hasSubElement        om:Element_287706 ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHroub" .
+
+om:Element_247265  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:455122" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "0p4A5YpS57b9iUXUqcN6kF" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_287706  a             beo:Door , bot:Element ;
+        rdfs:label               "door bathroom:door bathroom:528761" ;
+        props:hasArea            "1.4675"^^xsd:double ;
+        props:hasCompressedGuid  "3QVfKSQsT4Nfdaj9XHrouU" ;
+        props:hasVolume          "0.0350000000000017"^^xsd:double .
+
+om:Element_254541  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:493415" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3wAqibhLLFjg1AKNIEnOh3" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_302401  a             beo:Door , bot:Element ;
+        rdfs:label               "Access Door:Access Door:659406" ;
+        props:hasArea            "4.1"^^xsd:double ;
+        props:hasCompressedGuid  "2muN5J9Kn7lfrSYIlzvtCM" ;
+        props:hasVolume          "0.1"^^xsd:double .
+
+om:Element_250149  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:459291" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "35cQTx6gLCyff6NHvYym59" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_278928  a             beo:Door , bot:Element ;
+        rdfs:label               "door bathroom:door bathroom:517094" ;
+        props:hasArea            "1.4675"^^xsd:double ;
+        props:hasCompressedGuid  "2M8S0gJpj3yPZqJzdO1m6m" ;
+        props:hasVolume          "0.0350000000000017"^^xsd:double .
+
+om:Element_246991  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:454876" ;
+        bot:hasSubElement        om:Element_306063 ;
+        props:hasCompressedGuid  "0p4A5YpS57b9iUXUqcN6g1" .
+
+om:Element_248152  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:455892" ;
+        bot:hasSubElement        om:Element_248521 ;
+        props:hasCompressedGuid  "0p4A5YpS57b9iUXUqcN6w9" .
+
+om:Element_161022  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:398350" ;
+        props:hasCompressedGuid  "34ulVHybrA7vIelXHgLqpy" .
+
+om:Element_259427  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:503277" ;
+        props:hasCompressedGuid  "0gCmn8wtzE2gdjYhsOH6nd" .
+
+om:Element_305905  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:667192" ;
+        bot:hasSubElement        om:Element_305989 ;
+        props:hasCompressedGuid  "05zzZif0DAK9VuNWPLlitE" .
+
+om:Element_258498  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:502788" ;
+        bot:hasSubElement        om:Element_282142 , om:Element_282068 ;
+        props:hasCompressedGuid  "3Y0Oc$G819RgJuIzPRAxkj" .
+
+om:Element_277073  a             beo:Door , bot:Element ;
+        rdfs:label               "door bathroom:door bathroom:513839" ;
+        props:hasArea            "1.4675"^^xsd:double ;
+        props:hasCompressedGuid  "0ch9IuYfz1kwU3Q9uscd$y" ;
+        props:hasVolume          "0.0350000000000017"^^xsd:double .
+
+om:Element_95368  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:349580" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTzS" .
+
+om:Element_306137  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:667287" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "05zzZif0DAK9VuNWPLlirX" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_289719  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:534589" ;
+        bot:hasSubElement        om:Element_289486 , om:Element_288968 , om:Element_289412 , om:Element_289560 , om:Element_289190 , om:Element_289338 , om:Element_289042 , om:Element_289116 , om:Element_289634 , om:Element_289264 ;
+        props:hasCompressedGuid  "3O8NzrQbT6LQn_eJ9yBtPA" .
+
+om:Element_95880  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:349840" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTn0" .
+
+om:Element_294197  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:546521" ;
+        bot:hasSubElement        om:Element_294281 ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWBn" .
+
+om:Element_162116  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:409544" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3mt7RMhb12DO8XoPgVR8cB" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_329501  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:729909" ;
+        props:hasCompressedGuid  "00QZJSR51DP8_wgvwoVBV3" .
+
+om:Element_89975  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:347324" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcSPi" .
+
+om:Element_95304  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:349552" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcT_W" .
+
+om:Element_306372  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:669350" ;
+        props:hasCompressedGuid  "2ahqGaorL3VxZZDUfF9O5L" .
+
+om:Space_50796  a                brick:Space , bot:Space ;
+        rdfs:label               "133" ;
+        brick:isPartOf           om:BuildingStorey_160 ;
+        props:hasArea            "3.79999999999995"^^xsd:double ;
+        props:hasCompressedGuid  "0LnrpxIav0Ju4gTy7JmWbq" .
+
+om:Element_163288  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:411378" ;
+        props:hasCompressedGuid  "3mt7RMhb12DO8XoPgVRF2n" .
+
+om:Element_255561  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:496461" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "1pamL1Jf50oeVEtBlCB6RK" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_96974  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:350310" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTAs" .
+
+om:Element_89911  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:347302" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcSPs" .
+
+om:Element_276697  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:513191" ;
+        bot:hasSubElement        om:Element_276781 ;
+        props:hasCompressedGuid  "0ch9IuYfz1kwU3Q9uscdnq" .
+
+om:Space_4515  a                 brick:Space , bot:Space ;
+        rdfs:label               "15" ;
+        brick:isPartOf           om:BuildingStorey_154 ;
+        props:hasArea            "17.9523521354242"^^xsd:double ;
+        props:hasCompressedGuid  "0KLkXPBfvES9D1y7EjijX_" .
+
+om:Element_160194  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:397314" ;
+        props:hasCompressedGuid  "34ulVHybrA7vIelXHgLqZm" .
+
+om:Element_283475  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:524118" ;
+        bot:hasSubElement        om:Element_285344 ;
+        props:hasCompressedGuid  "2LQ0rcUwjCZBgWzunqjvvw" .
+
+om:Element_306063  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:667247" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "05zzZif0DAK9VuNWPLlisP" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_290648  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:535961" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3O8NzrQbT6LQn_eJ9yBtFk" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_278079  a             beo:Door , bot:Element ;
+        rdfs:label               "Simple door:Simple door:516316" ;
+        props:hasArea            "2.045"^^xsd:double ;
+        props:hasCompressedGuid  "3ijYEfeqDFGxfiNo1Aj$RO" ;
+        props:hasVolume          "0.0300000000000032"^^xsd:double .
+
+om:Element_96619  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:350170" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTqA" .
+
+om:Element_96910  a              beo:Column , bot:Element ;
+        rdfs:label               "Steel column:Steel column:350282" ;
+        props:hasCompressedGuid  "2cweJT5tfDRginM5LKcTAQ" .
+
+om:Element_163943  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:421913" ;
+        props:hasCompressedGuid  "0LbdSMP8DEb8sJj7RLTlFZ" .
+
+om:Element_257883  a             beo:Wall , bot:Element ;
+        rdfs:label               "Basic Wall:Internal wall 1000 mm:501513" ;
+        props:hasCompressedGuid  "3NbD7zBF58uutiWZNqxEX0" .
